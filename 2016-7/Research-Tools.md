@@ -1,4 +1,3 @@
-[TOC]
 #![](http://i.imgur.com/S7xBFja.png)Sundy#
 ##![](http://i.imgur.com/S7xBFja.png)科研必备利器#
 ##1.在线Latex编辑器 ##
@@ -10,7 +9,7 @@
 6. **Mendeley文章发布工具**: [https://www.mendeley.com/](https://www.mendeley.com/)
 7. **Latex下如何画图PGFPlots**: [http://pgfplots.sourceforge.net/](http://pgfplots.sourceforge.net/)
 
-##2.英语语言匹配##
+##2.英语词句匹配##
 1. **Linggle**
 2. **Netspeak**
 3. **COCA**:       [http://corpus.byu.edu/coca/](http://corpus.byu.edu/coca/)
@@ -42,5 +41,25 @@
 1. **欧洲专利局专利数据库**:[https://worldwide.espacenet.com/](https://worldwide.espacenet.com/)
 2. **美国专利商标局专利数据库**:[http://www.uspto.gov/](http://www.uspto.gov/)
    
+##10.视频编辑器##
+1. **Windows Movie Maker**
+
+##11.截图,录视频神器##
+1. **Faststone Capture**
+
+##12.本地文件搜索引擎##
+1. **Everything**
+
+##13.画图软件##
+1. **Viso**
+2. **Edraw Max**
+
+##14.阅读代码神器##
+1. **Sublime Text**
+
+##15.PDF编辑器##
+1. **PDF-XChange PDF Viewer**
 
 **请参见上面内容的详细介绍**: [https://weavi.com/95944/](https://weavi.com/95944/)
+#![](http://i.imgur.com/S7xBFja.png)微信公众号#
+![wechat](http://i.imgur.com/1TDj1p7.jpg)
