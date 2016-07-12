@@ -12,9 +12,9 @@
 # [计算机学习总结](https://github.com/sundyCoder/CSK)#
 
 
-#![](http://i.imgur.com/S7xBFja.png)About me#
+#![](http://i.imgur.com/S7xBFja.png)Contact#
 ----
-<a href="https://github.com/sundyCoder" target="_blank"> <img src="http://i.imgur.com/ytxW0VQ.png"   /></a>
+<a href="https://github.com/sundyCoder" target="_blank"> <img src="http://i.imgur.com/ytxW0VQ.png"   /></a> ![wechat](http://i.imgur.com/1TDj1p7.jpg)
 
 
 
