@@ -15,16 +15,15 @@
 #![](http://i.imgur.com/S7xBFja.png)知识总结#
 ---
 ## [计算机学习总结](https://github.com/sundyCoder/CSK)##
-----
-日期  | 内容  | 内容
-------------- | ---------
-2016年7月12日|[Git常用命令](https://github.com/sundyCoder/CSK/blob/master/2016-7/git-command.md)|[科研必备利器](https://github.com/sundyCoder/CSK/blob/master/2016-7/Research-Tools.md) |
+
+###2016年7月12日###
+1. [Git常用命令](https://github.com/sundyCoder/CSK/blob/master/2016-7/git-command.md)
+2. [科研必备利器](https://github.com/sundyCoder/CSK/blob/master/2016-7/Research-Tools.md) 
 
 ##![](http://i.imgur.com/S7xBFja.png)科技发现##
-----
-日期  | 内容 | 内容
-------------- | ---------
-2016年7月12日|[亚马逊AGV机器人探秘](https://zhuanlan.zhihu.com/p/21573656)|[哈佛Kilobots蜂窝机器人](https://zhuanlan.zhihu.com/p/21542525)
+###2016年7月12日###
+1. [亚马逊AGV机器人探秘](https://zhuanlan.zhihu.com/p/21573656)
+2. [哈佛Kilobots蜂窝机器人](https://zhuanlan.zhihu.com/p/21542525)
 
 #![](http://i.imgur.com/S7xBFja.png)Contact#
 ----
