@@ -6,6 +6,7 @@
 1  | [分布式多机器人](https://github.com/sundyCoder/MultiRobots/blob/master/README.md)
 2  | [多机器人ekf定位](https://github.com/sundyCoder/KalmanFilter)
 3  | [基于wifi的群组发现](https://github.com/sundyCoder/Group-Detection)
+4  | [科研必备利器](https://github.com/sundyCoder/CSK/blob/master/2016-7/Research-Tools.md)
 
 #![](http://i.imgur.com/S7xBFja.png)知识总结#
 ---
