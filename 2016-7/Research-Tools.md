@@ -1,5 +1,5 @@
 [TOC]
-#![](http://i.imgur.com/S7xBFja.png)SundyCoder#
+#![](http://i.imgur.com/S7xBFja.png)Sundy#
 ##![](http://i.imgur.com/S7xBFja.png)科研必备利器#
 ##1.在线Latex编辑器 ##
 1. **Overleaf**:   [https://www.overleaf.com/](https://www.overleaf.com/)
