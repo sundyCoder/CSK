@@ -16,9 +16,9 @@
 ---
 ## [计算机学习总结](https://github.com/sundyCoder/CSK)##
 
-###2016年7月12日###
-1. [Git常用命令](https://github.com/sundyCoder/CSK/blob/master/2016-7/git-command.md)
-2. [科研必备利器](https://github.com/sundyCoder/CSK/blob/master/2016-7/Research-Tools.md) 
+1. [Latex配置](https://github.com/sundyCoder/CSK/blob/master/2016-7/LaTex-Sublime.md)
+2. [Git常用命令](https://github.com/sundyCoder/CSK/blob/master/2016-7/git-command.md)
+3. [科研必备利器](https://github.com/sundyCoder/CSK/blob/master/2016-7/Research-Tools.md) 
 
 ##![](http://i.imgur.com/S7xBFja.png)科技发现##
 ###2016年7月12日###
