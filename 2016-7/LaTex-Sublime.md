@@ -67,7 +67,7 @@
 进行到现在，理论上应该就已经配置好了。以后就可以用 Sublime Text 写 LaTeX 了。写完之后保存（新建的文件一定要先保存，否则 build 是无效的），然后按下快捷键 Ctrl+B，Sublime Text 就会自动调用 LaTeXTools 的 build 系统来进行编译，然后自动打开 SumatraPDF 进行预览。之后每次修改后只要 Ctrl+B 一下，SumatraPDF 里的内容就会自动更新。
 同时在SumatraPDF 中双击相应的内容，会调到Sublime Text 2中对应的位置。
 
-##8.插件的安装##
+###8.插件的安装###
 Ctrl + Shift + P回车，输入pi,然后选择Package Control: Install Package回车,然后输入自己需要安装的插件即可，常用的插件有
 
 1. Markdown(当然我个人还是喜欢单独用Markdown Pad2，非常方便)
