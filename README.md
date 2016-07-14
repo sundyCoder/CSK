@@ -15,10 +15,13 @@
 #![](http://i.imgur.com/S7xBFja.png)知识总结#
 ---
 ## [计算机学习总结](https://github.com/sundyCoder/CSK)##
-
-1. [Latex配置](https://github.com/sundyCoder/CSK/blob/master/2016-7/LaTex-Sublime.md)
-2. [Git常用命令](https://github.com/sundyCoder/CSK/blob/master/2016-7/git-command.md)
-3. [科研必备利器](https://github.com/sundyCoder/CSK/blob/master/2016-7/Research-Tools.md) 
+- [Markdown使用](https://github.com/sundyCoder/CSK/blob/master/2016-7/Markdown-Notes.md)
+- [Latex配置](https://github.com/sundyCoder/CSK/blob/master/2016-7/LaTex-Sublime.md)
+- [Git常用命令](https://github.com/sundyCoder/CSK/blob/master/2016-7/git-command.md)
+- [科研必备利器](https://github.com/sundyCoder/CSK/blob/master/2016-7/Research-Tools.md)
+ 
+ 
+  
 
 ##![](http://i.imgur.com/S7xBFja.png)科技发现##
 ###2016年7月12日###
