@@ -15,8 +15,9 @@
 #![](http://i.imgur.com/S7xBFja.png)知识总结#
 ---
 ## [计算机学习总结](https://github.com/sundyCoder/CSK)##
-- [Markdown使用](https://github.com/sundyCoder/CSK/blob/master/2016-7/Markdown-Notes.md)
+- [QQ邮箱代收HKPU各种邮件](https://github.com/sundyCoder/CSK/blob/master/2016-7/E-Mail.md)
 - [Latex配置](https://github.com/sundyCoder/CSK/blob/master/2016-7/LaTex-Sublime.md)
+- [Markdown使用](https://github.com/sundyCoder/CSK/blob/master/2016-7/Markdown-Notes.md)
 - [Git常用命令](https://github.com/sundyCoder/CSK/blob/master/2016-7/git-command.md)
 - [科研必备利器](https://github.com/sundyCoder/CSK/blob/master/2016-7/Research-Tools.md)
  
