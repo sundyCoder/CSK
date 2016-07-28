@@ -59,6 +59,7 @@
 
 ##15.PDF编辑器##
 1. **PDF-XChange PDF Viewer**
+2. [各种免费pdf处理工具](http://www.pdfarea.com/download.htm)
 
 **请参见上面内容的详细介绍**: [https://weavi.com/95944/](https://weavi.com/95944/)
 #![](http://i.imgur.com/S7xBFja.png)微信公众号#
