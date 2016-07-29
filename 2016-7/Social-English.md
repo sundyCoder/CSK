@@ -51,7 +51,7 @@
 3. home-made, shop-made, hand-made
 4. look happy/sad/disappointed
 
-###Lesson 8.A Chat at Tea-time
+###Lesson 8.A Chat at Tea-time for
 1. black tea. 红茶
 2. parch. 干透，焦干. eg: Goodness, Is my throat parched? 哎呀，我口渴的要命
 
@@ -61,5 +61,40 @@
 3. have fever, have a temperature
 4. entrance examination.
 
-###Lesson 10.When Expressing Sympathy
-1. 
+###Lesson 13 Speaking on the Phone
+1. I'm a friend of his.
+2. One moment,please.
+3. When do you expect him back? 你估计他什么时候回来？
+4. Would you like to leave a message?
+5. Sorry to have kept you waiting. 对不起要你久等了。
+
+###Lesson 14. Talking on the Phone
+1. I'll be happy to go.
+2. Please give him my regards also.
+
+###Lesson 15. At the airport
+1. We are getting near the city now. Where are you staying?
+
+###Lesson 16. Seeing a Foreign Friend off
+1. I'm very grateful to you for your hot hospitality.
+2. It was nothing at all. What's your flight number?
+3. How about haveing some refreshment in the coffee parlor?
+4. That would be nice.
+5. set sb off. 给某人送行
+6. safe landing.安全着陆
+
+###Lesson 17. Travel at Mach 2超音速飞机
+1. That's really something.真的了不起
+2. give in.让步，屈服，同意. eg: He has given in to my views.
+
+###Lesson 18. Useful Sentences.
+1. We've been counting the days to seeing you.
+2. I hope you'll stay as long as possible.
+3. Thank you for your kind invitation.
+4. Thanks for inviting me.
+5. Will you be free next Saturday?
+6. It's up to you.你决定就好了。
+7. That's perfectly all right.
+8. Janet,you don't look well, is there anything wrong?
+9. Yes, I'll take your advice.
+
