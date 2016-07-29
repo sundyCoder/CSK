@@ -1,4 +1,4 @@
-#![](http://i.imgur.com/S7xBFja.png)Sundy
+#![](http://i.imgur.com/AsHqrkf.png)
 ##![](http://i.imgur.com/S7xBFja.png)机器人控制的一些学习课程
 ###学术会议和期刊
 - Main conferences: [ICRA](http://www.icra.in/), [IROS](http://www.iros2016.org/), [RSS](http://www.roboticsconference.org/), [ISER](http://www.iser2016.org/), [ISRR](http://ifrr.org/).
