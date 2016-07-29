@@ -12,9 +12,34 @@ edX: [Robot Mechanics and Control, Part II](https://www.edx.org/course/robot-mec
 ###2.移动机器人控制
 coursera: [Control of Mobile Robots](https://www.coursera.org/learn/mobile-robot/home/welcome)
 
-###3.机器人研究
+###3.深入机器人研究
 [CS 287: Advanced Robotics](https://people.eecs.berkeley.edu/~pabbeel/cs287-fa13/)
 
+###4.自动机器人
+涵盖的基础知识面很广
+
+[CS393R_ Autonomous Robots](https://www.cs.utexas.edu/~pstone/Courses/393Rfall15/resources/index.html)
+
+###5.智能机器人
+[Udacity-Artificial Intelligence for Robotics](https://www.udacity.com/course/artificial-intelligence-for-robotics--cs373)
+
+1. Lesson 1: Localization
+2. Lesson 2: Kalman Filters
+3. Lesson 3: Particle Filters
+4. Lesson 4: Search
+5. Lesson 5: PID Control
+6. Lesson 6: SLAM (Simultaneous Localization and Mapping)
+7. Runaway Robot Final Project
+
+
+###6.移动机器人控制
+[Andrew Davison_ Robotics Course](https://www.doc.ic.ac.uk/~ajd/Robotics/)
+
+###7.控制系统的设计
+[Control System Design](https://www.pearsonhighered.com/program/Goodwin-Control-System-Design/PGM110008.html#resources-primarytab)
+
+###8.ROS
+[89-685: Introduction to Robotic](http://u.cs.biu.ac.il/~yehoshr1/89-685/Fall2014/index.html)
 
 
 #![](http://i.imgur.com/S7xBFja.png)微信公众号#
