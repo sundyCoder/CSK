@@ -11,11 +11,13 @@
 6. | [微信(无需联网)](https://github.com/sundyCoder/wechat)
 7. | [IT技术总结](https://github.com/sundyCoder/CSK)
 8  | [科研必备利器](https://github.com/sundyCoder/CSK/blob/master/2016-7/Research-Tools.md)
+9  | [Robotic Control](https://github.com/sundyCoder/CSK/blob/master/Robot/Couse%20List.md)
 
 #![](http://i.imgur.com/S7xBFja.png)知识总结#
 ---
 ## [计算机学习总结](https://github.com/sundyCoder/CSK)##
 - [Latex配置](https://github.com/sundyCoder/CSK/blob/master/2016-7/LaTex-Sublime.md)
+- [Latex入门](https://github.com/sundyCoder/CSK/blob/master/2016-7/Latex-Tutorial.md)
 - [Markdown使用](https://github.com/sundyCoder/CSK/blob/master/2016-7/Markdown-Notes.md)
 - [Git常用命令](https://github.com/sundyCoder/CSK/blob/master/2016-7/git-command.md)
 - [科研必备利器](https://github.com/sundyCoder/CSK/blob/master/2016-7/Research-Tools.md)

@@ -1,6 +1,6 @@
-#Sundy
-##Latex Tutorial
-###Lesson 1. Basic Introduction
+#![](http://i.imgur.com/AsHqrkf.png)
+##![](http://i.imgur.com/S7xBFja.png)Latex Tutorial
+###![](http://i.imgur.com/S7xBFja.png)Lesson 1. Basic Introduction
 	eg:
 	\documentclass{article}
 	\title{My first document}
@@ -26,7 +26,7 @@
 	arabic numbers
 	roman numbers
 
-###Lession 2. Adding paragraphs and sections
+###![](http://i.imgur.com/S7xBFja.png)Lession 2. Adding paragraphs and sections
 	\documentclass{article}
 	\title{My first document}
 	\author{Sundy}
@@ -64,7 +64,7 @@
 1. The sections will have successive numbers and appear in the table of contents
 1. Paragraphs are not numbered and thus don't appear in the table of contents
 
-###Lession 3.Adding more functions to LaTeX
+###![](http://i.imgur.com/S7xBFja.png)Lession 3.Adding more functions to LaTeX
 1.Math equation
 	documentclass{article}
 	
@@ -98,7 +98,7 @@ Output:
 2. All packages must be included in the preamble
 3. Packages add features such as support for pictures, links and bibliography
 
-###Lesson 4. Typesetting math in LaTeX
+###![](http://i.imgur.com/S7xBFja.png)Lesson 4. Typesetting math in LaTeX
 ####1. Inline Math
 在文字之间嵌入数学公式:
 
@@ -145,7 +145,7 @@ The equation and align environment
 	1. \sqrt{x} for square roots
 1. Characters for the greek alphabet and other mathematical symbols such as \lambda
 
-###Lesson 5.Adding figures in LaTeX - Embed an image/picture
+###![](http://i.imgur.com/S7xBFja.png)Lesson 5.Adding figures in LaTeX - Embed an image/picture
 	\begin{figure}[h!]
 	  \includegraphics[width=\linewidth]{boat.jpg}
 	  \caption{A boat.}
@@ -173,7 +173,7 @@ However, I have only used the [h!] option so far. The float package (\usepackage
 1. Refer to pictures in your document by setting a \label and using the \ref tag
 1. Set the position of your image by adding a float option such as [h!]
 
-###Lesson 6.Generate a table of contents in LaTeX
+###![](http://i.imgur.com/S7xBFja.png)Lesson 6.Generate a table of contents in LaTeX
 	\begin{figure}
 	  \caption{Dummy figure}
 	\end{figure}
@@ -192,7 +192,7 @@ However, I have only used the [h!] option so far. The float package (\usepackage
 1. Create lists of your figures and tables with \listoffigures and \listoftables
 1. Always compile twice to see the changes
 
-###Lesson 7. Bibliography in LaTeX with Bibtex/Biblatex
+###![](http://i.imgur.com/S7xBFja.png)Lesson 7. Bibliography in LaTeX with Bibtex/Biblatex
 Random copy a bib information from google scholar, and then save it as example.bib.
 
 For example:
@@ -230,7 +230,7 @@ In latex, write the code as below:
 1. BibTeX uses the \cite command, while BibLaTeX uses the \autocite command
 1. The \autocite command takes the page number as an option: \autocite[NUM]{}
 
-###Lesson 7b. LaTeX Footnotes - Quick Explanation
+###![](http://i.imgur.com/S7xBFja.png)Lesson 7b. LaTeX Footnotes - Quick Explanation
 So how to use footnotes? LaTeX offers the \footnote command and referencing works using the \label and \ref commands.
 
 The following code shows some example text and how to add a footnote with a label:
@@ -250,7 +250,7 @@ After compilation you will see the footnote appearing on the bottom of your page
 1. Make sure that the label is contained within the braces of the footnote command
 1. Use the \ref command to refer to footnotes
 
-###Lesson 8.Tables in LaTeX - Quick Guide with Code Examples
+###![](http://i.imgur.com/S7xBFja.png)Lesson 8.Tables in LaTeX - Quick Guide with Code Examples
 	\documentclass{article}
 	
 	\begin{document}
@@ -301,7 +301,7 @@ Include: \usepackage{booktabs}, otherwise, there will be a error.
 1. The newline \\ operator indicates the end of a row
 1. It's possible to refer to tables using \ref and \label
 
-###Lesson 9. Tables from .csv in LaTeX with pgfplotstable
+###![](http://i.imgur.com/S7xBFja.png)Lesson 9. Tables from .csv in LaTeX with pgfplotstable
 Use the package pgfplotstable to read tables from .csv files automatically and add them to your document.
 
 	\begin{table}[h!]
@@ -337,7 +337,7 @@ Use the package pgfplotstable to read tables from .csv files automatically and a
 1. Have a .csv file seperated with comma as column seperator and newline as row seperator
 1. Does only work for tables smaller than one page
 
-###Lesson 10. Plots in LaTeX - Visualize data with pgfplots
+###![](http://i.imgur.com/S7xBFja.png)Lesson 10. Plots in LaTeX - Visualize data with pgfplots
 The pgfplots package from tikz/pgf enabled you to plot data directly from .csv files in LaTeX.
 
 	...
@@ -380,7 +380,7 @@ The pgfplots package from tikz/pgf enabled you to plot data directly from .csv f
 1. Plotting is easy with pgfplots, it plots data directly from .csv files
 1. Select a column by the actual name from the .csv file using table[x=column 1,y=column 2…
 
-###Lesson 11. Draw pictures in LaTeX - With tikz/pgf
+###![](http://i.imgur.com/S7xBFja.png)Lesson 11. Draw pictures in LaTeX - With tikz/pgf
 The pgf/tikz package allows you to draw pictures from within your LaTeX document to keep the style consistent throughout your document.
 
 ###The syntax of Tikz
@@ -422,7 +422,7 @@ To demonstrate the basic syntax, we will have a closer look at the line that dra
 1. Extensions available to easy creation of diagrams, flowcharts and so forth
 
 
-###Lesson 12. Circuit diagrams in LaTeX - Using Circuitikz
+###![](http://i.imgur.com/S7xBFja.png)Lesson 12. Circuit diagrams in LaTeX - Using Circuitikz
 Add neat circuit diagrams to your paper with circuitikz, extending tikz with electric components.
 	\documentclass{article}
 	
@@ -454,7 +454,7 @@ Add neat circuit diagrams to your paper with circuitikz, extending tikz with ele
 1. The syntax is similar to the plain Tikz syntax
 1. A list of all symbols is available in the circutikz manual
 
-###Lesson 13. Source code highlighting in LaTeX using the listings package (lstlisting)
+###![](http://i.imgur.com/S7xBFja.png)Lesson 13. Source code highlighting in LaTeX using the listings package (lstlisting)
 
 The listings package offers source code highlighting for various languages. Learn by example how to use it in your LaTeX documents.
 
@@ -517,7 +517,7 @@ This will keep your LaTeX source clean and you can still use all features of the
 1. Use the \lstlinputlisting{FILENAME} command to read the content of source files directly into a lstlistings environment.
 
 
-**Original website**:[https://www.latex-tutorial.com/tutorials/quick-start/](https://www.latex-tutorial.com/tutorials/quick-start/)
+**![](http://i.imgur.com/S7xBFja.png)Original website**:[https://www.latex-tutorial.com/tutorials/quick-start/](https://www.latex-tutorial.com/tutorials/quick-start/)
 
 ###**Appendix - Source Code.**
 	\documentclass{article}

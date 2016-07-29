@@ -1,4 +1,4 @@
-#![](http://i.imgur.com/S7xBFja.png)Sundy
+#![](http://i.imgur.com/AsHqrkf.png)
 ##![](http://i.imgur.com/S7xBFja.png)Robot Mechanics and Control, Part 1
 ##![](http://i.imgur.com/S7xBFja.png)Week 1
 ###Course Introduction
