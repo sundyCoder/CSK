@@ -14,3 +14,10 @@ coursera: [Control of Mobile Robots](https://www.coursera.org/learn/mobile-robot
 
 ###3.机器人研究
 [CS 287: Advanced Robotics](https://people.eecs.berkeley.edu/~pabbeel/cs287-fa13/)
+
+
+
+#![](http://i.imgur.com/S7xBFja.png)微信公众号#
+![wechat](http://i.imgur.com/1TDj1p7.jpg)
+<a href="https://github.com/sundyCoder" target="_blank"> <img src="http://i.imgur.com/ytxW0VQ.png"   /></a> 
+

@@ -11,7 +11,7 @@
 6. | [微信(无需联网)](https://github.com/sundyCoder/wechat)
 7. | [IT技术总结](https://github.com/sundyCoder/CSK)
 8  | [科研必备利器](https://github.com/sundyCoder/CSK/blob/master/2016-7/Research-Tools.md)
-9  | [Robotic Control](https://github.com/sundyCoder/CSK/blob/master/Robot/Couse%20List.md)
+9  | [Robotic Control](https://github.com/sundyCoder/CSK/blob/master/Robot/README.md)
 
 #![](http://i.imgur.com/S7xBFja.png)知识总结#
 ---
