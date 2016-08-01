@@ -1,0 +1,64 @@
+
+一 c语言能否做面向对象的设计 （可以）
+
+例程：
+#include <stdio.h>
+
+struct Time{
+	//成员变量
+	int h;
+	int m;
+	int s;
+	//成员函数
+	void (*set)(struct Time *,int ,int,int);
+	void (*show)(struct Time *); //show是一个函数指针变量
+	void (*tick)(struct Time *);
+	void (*run)(struct Time *);
+};
+
+void set(struct Time *p,int h,int m,int s){
+	p->h = h;
+	p->m = m;
+	p->s = s;
+}
+
+void show(struct Time *p){
+	printf("%02d:%02d:%02d\r",p->h,p->m,p->s);
+	fflush(stdout);
+}
+
+void tick(struct Time *p){
+	sleep(1);
+	if(--p->s < 0){
+		p->s = 59;
+		if(--p->m < 0){
+		p->m = 59;
+		if(--p->h < 0)
+			p->h = 0;
+		}
+	}
+}
+
+void run(struct Time *p){
+	while(p->s >0 || p->m>0 || p->h >0){
+		show(p);
+		tick(p);
+	}
+	printf("bang~~~~!\n");
+}
+
+int main(){
+   //  struct Time t = {0,0,3,&show,&tick,&run};//等价于{0,0,3,show,tick,run}
+   // t.s = 5;  
+	//给某些成员赋值,没赋值的就有默认值
+	struct Time t = {.set=set,.show=show,.tick=tick,.run=run};//等价于{0,0,3,show,tick,run}
+	t.set(&t,0,0,4);
+	t.run(&t);
+}
+
+
+
+
+
+
+

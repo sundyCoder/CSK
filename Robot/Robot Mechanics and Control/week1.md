@@ -29,3 +29,38 @@ Basic concepts: links, joint, open chain, closed chain,rigid body,end-effector, 
 
 ###Robot Configuration Space
 ###1.1.Joints, links, mechanisms, configuration space, degrees of freedom
+1. where is the robot?
+	1. pick a reference frame: Reference frame:参考坐标，坐标系统
+	2. pick 3 points{A,B,C} on coin.
+		1. what's the contraints are?   d(A,B),d(B,C),d(A,C), 3 equations , 6 unknow parameters.
+	3. A better way to describe the location of a robot (x,y,theta)
+	
+Now, consider a rigid body in a 3-D space.(x,y,z)
+
+d(A,B) = L1(fixed), d(A,C) = L2(fixed),d(B,C) = L3(fixed).
+3 equations, 9 unknows --> 9-3 = 6 independant parameters.
+![](http://i.imgur.com/bH8xXS1.png)
+
+Mobility of robot Mechanisms:
+
+- some common joints:
+	1. 	Revolute(R) joint
+	1. 	Prismatic(P) joint(linear joint)
+	1. 	cylindrical(C) joint
+![](http://i.imgur.com/2MfcJAs.png)
+	1. Universal joint(U)
+	![](http://i.imgur.com/DMkMH2B.png)
+	1. Spherical Joint（S)
+	
+	![](http://i.imgur.com/p4EcpaO.png)
+
+The R joint has one degree of freedom.
+C and U joints have 2 dof
+the S joint has 3 dof.
+
+![](http://i.imgur.com/38taZt9.png)
+![](http://i.imgur.com/KAgSSB8.png)
+
+every time you see a joint connecting two bodies, that eliminates two coordinates.
+
+![](http://i.imgur.com/ne9syfN.png)

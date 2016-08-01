@@ -1,0 +1,33 @@
+一 引用(基本数据类型的引用 和 对象的引用)
+
+
+#include <iostream>
+using namespace std;
+
+int& fn(){
+	int n =5;
+	int &n2 =n;
+	return n2;  //不能返回局部变量的引用 error
+	//return n; //不能返回局部变量的引用 error
+}
+
+int& fn2(){
+	static int n = 5;
+	int &n2 = n;
+	return n2;
+	//return n;  //ok
+}
+
+int main2(){
+	int i = 3,i2 = 4;
+	int &j = i;   //引用是终身制
+	i = i2;
+	cout<<i<<","<<j<<endl;  //
+
+  int &t = fn();
+  cout<<t<<endl;
+
+  int &t2 = fn2();
+  cout<<t2<<endl;
+	return 0;
+}

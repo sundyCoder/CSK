@@ -1,0 +1,66 @@
+		
+			随机数的产生
+
+一 用C语言实现产生0-100之间的不重复的10个随机数
+ 1 用到的函数:
+ #include <stdlib.h>  void srand( unsigned seed );
+ 作用:设置rand()随机序列种子，对于给定的种子seed,rand()会反复产生随机序列的种子。
+
+ 2 #include <stdlib.h>  int rand( void );
+  作用:函数会产生一个0-RAND_MAX之间的伪随机数。
+       如果不用srand(seed)设计种子的话，将会产生0-32767之间的随机数。
+
+例程:
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int find(int* num,int n,int keynum){
+	int i = 0;
+	for (i = 0; i < n; ++i) {
+		if(num[i] == keynum)
+			return 1;
+	}
+	return 0;
+}
+
+int main(){
+	int index = 0;
+	int num[10];
+	srand(time(NULL));
+	while(index<10){
+	int keynum = rand()%100;
+		if(find(num,10,keynum))
+			continue;
+		num[index++] = keynum;
+		printf("%d\n",keynum);
+	}
+	return 0;
+}	
+
+
+
+
+二 用c++语言实现
+ 1 用C++语言中的set()容器的特性:集合元素互异性
+
+#include <iostream>
+#include <set>
+using namespace std;
+
+int main(){
+	set<int> myset;
+	set<int>::iterator it;
+	srand(time(0));
+	while(myset.size()<10){
+		myset.insert(rand()%100);
+	}
+
+	it = myset.begin();
+	while((it++)!=myset.end()){
+		cout<<*it<<" ";
+	}
+	return 0;
+}
+
+
