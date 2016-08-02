@@ -16,6 +16,7 @@
 #![](http://i.imgur.com/S7xBFja.png)知识总结#
 ---
 ## [计算机学习总结](https://github.com/sundyCoder/CSK)##
+- [Defect Detection](https://github.com/sundyCoder/CSK/blob/master/2016-8/defect-detection.md)
 - [Latex配置](https://github.com/sundyCoder/CSK/blob/master/2016-7/LaTex-Sublime.md)
 - [Latex入门](https://github.com/sundyCoder/CSK/blob/master/2016-7/Latex-Tutorial.md)
 - [Markdown使用](https://github.com/sundyCoder/CSK/blob/master/2016-7/Markdown-Notes.md)
