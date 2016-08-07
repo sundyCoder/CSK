@@ -60,6 +60,7 @@ cite:Edge Detection Techniques for Image Segmentation-A Survey of Soft Computing
 
 ![](http://i.imgur.com/vL0r4Dw.png)
 
+
 ###Reference
 1. Qingzhong Li, Maohua Wang, Weikang Gu, Computer vision based system for apple surface defect detection, Computers and Electronics in Agriculture, Volume 36, Issues 2–3, November 2002, Pages 215-223, ISSN 0168-1699, http://dx.doi.org/10.1016/S0168-1699(02)00093-5.
 (http://www.sciencedirect.com/science/article/pii/S0168169902000935)
