@@ -34,7 +34,7 @@
 
 [专题2-1-引用](https://github.com/sundyCoder/CSK/blob/master/C++/专题2-1-引用.md)                                                        
 
-[专题2-2-浅拷贝 VS 深拷贝](https://github.com/sundyCoder/CSK/blob/master/C++/专题2-2-浅拷贝VS深拷贝.md)
+[专题2-2-浅拷贝 VS 深拷贝](https://github.com/sundyCoder/CSK/blob/master/C++/专题2-2-浅拷贝_VS_深拷贝.md)
 
 [专题2-3-C++中的单例模式](https://github.com/sundyCoder/CSK/blob/master/C++/专题2-3-C++中的单例模式.md)                                             
 
@@ -44,7 +44,7 @@
 
 [专题3-3-虚函数 析构函数 抽象类](https://github.com/sundyCoder/CSK/blob/master/C++/专题3-3-虚函数_析构函数_抽象类.md)
 
-[专题4-1-多态引发的内存泄露问题以及存在多态时父类中析构函数必须为虚](https://github.com/sundyCoder/CSK/blob/master/C++/专题4-1-专题4-1-多态引发的内存泄露问题_以及存在多态时父类中析构函数必须为虚.md)
+[专题4-1-多态引发的内存泄露问题以及存在多态时父类中析构函数必须为虚](https://github.com/sundyCoder/CSK/blob/master/C++/专题4-1-专题4-1-多态引发的内存泄露问题以及存在多态时父类中析构函数必须为虚.md)
 
 [专题4-2-将析构函数声明为纯析构函数的作用](https://github.com/sundyCoder/CSK/blob/master/C++/专题4-2-将析构函数声明为纯析构函数的作用.md)  
 
