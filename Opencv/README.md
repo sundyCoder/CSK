@@ -4,8 +4,15 @@
 - [Opencv入门](https://github.com/sundyCoder/CSK/blob/master/Opencv/opencv.md)
 - [Defect Detection](https://github.com/sundyCoder/CSK/blob/master/Opencv/defect-detection.md)
 - [插值和拟合](https://github.com/sundyCoder/CSK/blob/master/Opencv/inteplation_fitting_regression.md)
+- [滤波器]()
 - [统计方法](https://github.com/sundyCoder/CSK/blob/master/Opencv/statistical_approaches.md)
-- [HOG](https://github.com/sundyCoder/CSK/blob/master/Opencv/HOG.md)
+	- [HOG](https://github.com/sundyCoder/CSK/blob/master/Opencv/HOG.md)
+	- [Co-occurrence Matrix]()
+	- [Local Binary Pattern]()
+	- [Other graylevel statistics]()
+	- [Autocorrelation]()
+	- [Registration-based]()
+
 
 
 
