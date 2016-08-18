@@ -23,7 +23,9 @@ http://web.stanford.edu/class/ee368/Handouts/Lectures/2014_Spring/Combined_Slide
 
 http://web.stanford.edu/class/ee368/Handouts/Lectures/2014_Spring/Combined_Slides/12-Keypoint-Detection-Combined.pdf
 
+6.Phd Toolbox
 
+[http://luks.fe.uni-lj.si/sl/osebje/vitomir/face_tools/PhDface/techs.html](http://luks.fe.uni-lj.si/sl/osebje/vitomir/face_tools/PhDface/techs.html)
 
 handout:
 

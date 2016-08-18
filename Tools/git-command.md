@@ -26,5 +26,9 @@
 	git merge branch-name
     也可以采用手动用beyond compare进行合并
 
+###7.git submodule
+[http://www.kafeitu.me/git/2012/03/27/git-submodule.html](http://www.kafeitu.me/git/2012/03/27/git-submodule.html)
+
 #![](http://i.imgur.com/S7xBFja.png)微信公众号#
 ![wechat](http://i.imgur.com/1TDj1p7.jpg)
+
