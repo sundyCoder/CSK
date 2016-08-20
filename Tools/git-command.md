@@ -29,6 +29,17 @@
 ###7.git submodule
 [http://www.kafeitu.me/git/2012/03/27/git-submodule.html](http://www.kafeitu.me/git/2012/03/27/git-submodule.html)
 
+###8.为自己的版本库配置credential
+	$ git config credential.helper store
+	$ git push http://example.com/repo.git
+	Username: <type your username>
+	Password: <type your password>
+	
+	[several days later]
+	$ git push http://example.com/repo.git
+	[your credentials are used automatically]
+
+
 #![](http://i.imgur.com/S7xBFja.png)微信公众号#
 ![wechat](http://i.imgur.com/1TDj1p7.jpg)
 
