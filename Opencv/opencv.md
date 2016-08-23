@@ -30,3 +30,48 @@ http://web.stanford.edu/class/ee368/Handouts/Lectures/2014_Spring/Combined_Slide
 handout:
 
 http://web.stanford.edu/class/ee368/Handouts/Lectures/2014_Spring/
+
+
+###OpenCV3.1 Debug Library
+
+	opencv_aruco310d.lib
+	opencv_bgsegm310d.lib
+	opencv_bioinspired310d.lib
+	opencv_calib3d310d.lib
+	opencv_ccalib310d.lib
+	opencv_core310d.lib
+	opencv_datasets310d.lib
+	opencv_dnn310d.lib
+	opencv_dpm310d.lib
+	opencv_face310d.lib
+	opencv_features2d310d.lib
+	opencv_flann310d.lib
+	opencv_fuzzy310d.lib
+	opencv_highgui310d.lib
+	opencv_imgcodecs310d.lib
+	opencv_imgproc310d.lib
+	opencv_line_descriptor310d.lib
+	opencv_ml310d.lib
+	opencv_objdetect310d.lib
+	opencv_optflow310d.lib
+	opencv_photo310d.lib
+	opencv_plot310d.lib
+	opencv_reg310d.lib
+	opencv_rgbd310d.lib
+	opencv_saliency310d.lib
+	opencv_shape310d.lib
+	opencv_stereo310d.lib
+	opencv_stitching310d.lib
+	opencv_structured_light310d.lib
+	opencv_superres310d.lib
+	opencv_surface_matching310d.lib
+	opencv_text310d.lib
+	opencv_tracking310d.lib
+	opencv_ts310d.lib
+	opencv_video310d.lib
+	opencv_videoio310d.lib
+	opencv_videostab310d.lib
+	opencv_xfeatures2d310d.lib
+	opencv_ximgproc310d.lib
+	opencv_xobjdetect310d.lib
+	opencv_xphoto310d.lib
