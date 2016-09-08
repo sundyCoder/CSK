@@ -75,3 +75,6 @@ http://web.stanford.edu/class/ee368/Handouts/Lectures/2014_Spring/
 	opencv_ximgproc310d.lib
 	opencv_xobjdetect310d.lib
 	opencv_xphoto310d.lib
+
+
+[http://jacoxu.com/?p=146](http://jacoxu.com/?p=146)
