@@ -54,7 +54,8 @@ QGraphicsItem is the base class for graphical items in a scene. Graphics View pr
 		Collision detection
 
 ###Example
- 
+ ![](http://i.imgur.com/gYDljS3.png)
+
 Item coordinates
 
 	Items live in their own local coordinate system.

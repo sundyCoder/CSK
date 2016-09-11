@@ -32,7 +32,7 @@
 
 ##7.免费电子书下载##
 1. **Booksee**:[http://en.booksee.org/](http://en.booksee.org/)
-2. **Bookzz**: [http://en.booksee.org/](http://en.booksee.org/)
+2. **Bookzz**: [http://bookzz.org/](http://bookzz.org/)
 
 ##8.学术网站大全##
 1. **Shttp**: [http://dir.cnki.net](http://dir.cnki.net)
