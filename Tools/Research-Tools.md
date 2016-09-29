@@ -61,6 +61,11 @@
 1. **PDF-XChange PDF Viewer**
 2. [各种免费pdf处理工具](http://www.pdfarea.com/download.htm)
 
+##16.看图工具
+1. [XnView](http://www.xnview.com/en/xnview/#downloads)
+2. [IrfanView](http://www.irfanview.com/)
+3. [Visual Studio插件Image Watch](https://visualstudiogallery.msdn.microsoft.com/e682d542-7ef3-402c-b857-bbfba714f78d)
+
 **请参见上面内容的详细介绍**: [https://weavi.com/95944/](https://weavi.com/95944/)
 #![](http://i.imgur.com/S7xBFja.png)微信公众号#
 ![wechat](http://i.imgur.com/1TDj1p7.jpg)
