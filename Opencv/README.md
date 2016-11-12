@@ -13,8 +13,8 @@
 	- [Autocorrelation]()
 	- [Registration-based]()
 
-
-
+Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.
+[http://eigen.tuxfamily.org/index.php?title=Main_Page](http://eigen.tuxfamily.org/index.php?title=Main_Page)
 
 ###2.Machine Learning
 
@@ -22,4 +22,7 @@
 1. [Dalal, Navneet, and Bill Triggs. "Histograms of oriented gradients for human detection." 2005 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR'05). Vol. 1. IEEE, 2005.](http://ieeexplore.ieee.org.sci-hub.cc/xpl/login.jsp?tp=&arnumber=1467360&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D1467360)
 
 ###3.Interpolation
-[Interpolation Methods](https://github.com/sundyCoder/CSK/blob/master/Opencv/interpolation.md)
+Introduction: [https://github.com/sundyCoder/CSK/blob/master/Opencv/interpolation.md](https://github.com/sundyCoder/CSK/blob/master/Opencv/interpolation.md)
+C++ Library: [http://rncarpio.github.io/linterp/](http://rncarpio.github.io/linterp/)
+
+
