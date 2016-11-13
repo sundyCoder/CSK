@@ -21,3 +21,4 @@ Then, open Caffe.sln using vs2013 and build each module.
 
 ###5. Others
 1. [Hacker's guide to Neural Networks](http://karpathy.github.io/neuralnets/)
+2. [Caffe Regression](https://github.com/qiexing/caffe-regression)
