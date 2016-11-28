@@ -1,0 +1,14 @@
+http://nghiaho.com/?p=2333
+
+http://machinelearningmastery.com/regression-tutorial-keras-deep-learning-library-python/
+
+
+https://keras.io/getting-started/functional-api-guide/
+
+http://robotwealth.com/machine-learning-for-financial-prediction-experimentation-with-david-aronsons-latest-work-part-2/
+
+
+
+!!!good one
+https://www.kaggle.com/danijelk/allstate-claims-severity/keras-starter-with-bagging-lb-1120-596
+https://blog.keras.io/building-autoencoders-in-keras.html
