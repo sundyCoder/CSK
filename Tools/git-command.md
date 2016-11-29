@@ -39,6 +39,8 @@
 	$ git push http://example.com/repo.git
 	[your credentials are used automatically]
 
+###9.更改远程url
+	git remote set-url origin xxx.git
 
 #![](http://i.imgur.com/S7xBFja.png)微信公众号#
 ![wechat](http://i.imgur.com/1TDj1p7.jpg)
