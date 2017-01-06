@@ -52,4 +52,13 @@ Example1: [http://blog.csdn.net/xiaoquantouer/article/details/51840332](http://b
 	[WHERE Clause]
 	[OFFSET M ][LIMIT N]
 
-  (7)
+	统计查询到的记录的个数
+	eg:  SELECT * FROM gaodeitem WHERE ad_name = '曾都区' AND NAME = '交通大道'
+         SELECT COUNT(*) FROM gaodeitem WHERE ad_name = '曾都区';
+		 SELECT COUNT(*) FROM gaodeitem WHERE ad_name = '广水市';
+		 SELECT COUNT(*) FROM gaodeitem WHERE ad_name = '随县';
+
+  (7)表数据的插入
+
+	insert into t (id,name,address) values  (1,'yubowei','weifang'),  (2,'sam','qingdao');
+	 
