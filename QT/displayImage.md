@@ -18,3 +18,24 @@ title是std::string，可以认为是一个自定义的窗口名字。
 上面的代码是创建一个标题是title的窗口，并更换这个窗口的父对象为HWND new_hParent代表的对象，同时隐藏原来的父对象。之后只要记住这个title，用cv::imshow(title, mat)就可以在其上显示图片了。
 
 那么如何获得一个QT控件的HWND呢？只要用(HWND)widget->winId()就可以了
+
+
+Example:
+
+	void UIMainWindow::setCVWindows(){
+	     std::string name = objectName().toStdString();    
+	     HWND new_hParent = (HWND)ui->centralWidget->winId();
+	
+	     cv::namedWindow(name, cv::WINDOW_AUTOSIZE);
+	     HWND hWnd = (HWND)cvGetWindowHandle(name.c_str());
+	     HWND hParent = GetParent(hWnd);
+	     SetParent(hWnd, new_hParent);
+	     ShowWindow(hParent, SW_HIDE);
+	}
+
+
+Usage:
+
+		cv::Mat fullImage = xxx;
+	    std::string name = objectName().toStdString();
+    	cv::imshow(name, fullImage_);

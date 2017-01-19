@@ -61,4 +61,8 @@ Example1: [http://blog.csdn.net/xiaoquantouer/article/details/51840332](http://b
   (7)表数据的插入
 
 	insert into t (id,name,address) values  (1,'yubowei','weifang'),  (2,'sam','qingdao');
+	
+	(8）表字段长度的修改
+   	ALTER TABLE <table_name> MODIFY <field_name> VARCHAR(13);
+   	eg: UPDATE t_indicator SET Communication_number='1064816664617' WHERE CODE=001
 	 
