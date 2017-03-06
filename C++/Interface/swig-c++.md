@@ -3,6 +3,8 @@
 
 参见官方[http://www.swig.org/tutorial.html](http://www.swig.org/tutorial.html)
 
+Example:[https://github.com/sundyCoder/CSK/tree/master/C%2B%2B/Interface/SwigExample](https://github.com/sundyCoder/CSK/tree/master/C%2B%2B/Interface/SwigExample)
+
 ##步骤总结(讲C++/C代码转化为Python接口):
 ###1.写代码(C++/C)
 	
