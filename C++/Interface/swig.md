@@ -57,6 +57,8 @@ Example:
 
 ###4.在Python中使用example模块
 将example.py和_example.pyd文件拷贝到python的工作目录下面，就可以使用C++提供的接口了。
+
+	
 	We can now use the Python module as follows :
 	 >>> import example
 	 >>> example.fact(5)
