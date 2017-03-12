@@ -1,0 +1,3 @@
+﻿  Press any key to continue . . . 
+  example_wrap.cxx
+LINK : fatal error LNK1104: cannot open file 'python27_d.lib'

@@ -65,4 +65,27 @@ Example1: [http://blog.csdn.net/xiaoquantouer/article/details/51840332](http://b
 	(8）表字段长度的修改
    	ALTER TABLE <table_name> MODIFY <field_name> VARCHAR(13);
    	eg: UPDATE t_indicator SET Communication_number='1064816664617' WHERE CODE=001
-	 
+
+
+###(2) install mysql on ubuntu
+
+1.mysql
+	sudo apt-get install mysql-client mysql-server
+
+	 mysqladmin -p -u root version
+	 mysqladmin -u root -p ping
+
+
+	 service mysql status
+
+
+2.授权
+	mysql -u root –p
+	mysql>use mysql;
+	mysql>update user set host = '%' where user = 'root';
+	mysql>select host, user from user;	 
+
+	 uninstall plugin validate_user.
+	 insert into mysql.user(Host,User,authentication_string) values('localhost','tmc',password('t@123456'));
+	 grant all privileges on *.* to tmc@"%" identified by "123456" with grant option;
+	 CREATE USER 'tmc'@'localhost' IDENTIFIED BY '123456';	 

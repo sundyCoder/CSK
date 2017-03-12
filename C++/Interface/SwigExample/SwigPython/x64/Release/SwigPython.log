@@ -1,0 +1,13 @@
+﻿  Press any key to continue . . . 
+  example_wrap.cxx
+     Creating library F:\SwigExample\x64\Release\_example.lib and object F:\SwigExample\x64\Release\_example.exp
+  Generating code
+  0 of 86 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  SwigPython.vcxproj -> F:\SwigExample\x64\Release\_example.pyd
+  SwigPython.vcxproj -> F:\SwigExample\x64\Release\_example.pdb (Full PDB)
+  postBuild.cmd: copy python generated scripts to output.
+          1 file(s) copied.
+          1 file(s) copied.
