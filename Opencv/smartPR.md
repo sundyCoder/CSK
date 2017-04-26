@@ -1,9 +1,9 @@
 # Sundy #
 ## smart PR ##
 
-###1.OpenCV3.1.0交叉编译	###
+### 1.OpenCV3.1.0交叉编译	###
  
-####1.1 Download OpenCV3.1.0 source code.####
+#### 1.1 Download OpenCV3.1.0 source code. ####
 
 	http://opencv.org/releases.html	
 
@@ -48,7 +48,7 @@
 	cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=../install_dir/ -D SOFTFP=ON -D ENABLE_NEON=ON -D CMAKE_TOOLCHAIN_FILE=../arm-gnueabi.toolchain.cmake ../../../
 	
 	
-###2 编译OpenCV应用程序###
+### 2 编译OpenCV应用程序 ###
 
 2.1 CMakeLists.txt
 	
