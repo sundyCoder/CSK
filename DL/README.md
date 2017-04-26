@@ -3,6 +3,12 @@
 ## Unsupervised Feature Learning and Deep Learning ##
 
 Knowledge：
+###  Book
+
+1. [NN Deep Learning中文版](https://hit-scir.gitbooks.io/neural-networks-and-deep-learning-zh_cn/content/index.html)
+2. [NN Deep Learning英文版](http://neuralnetworksanddeeplearning.com//)
+
+ 
 
 一、机器学习基础
 
@@ -103,12 +109,7 @@ Knowledge：
 ### 1. Tutorial
 
 1. [Unsupervised Feature Learning and Deep Learning](http://deeplearning.stanford.edu/wiki/index.php/Main_Page)
-### 2. Book
 
-1. [NN Deep Learning](http://neuralnetworksanddeeplearning.com//)
-2. [Machine Learning Yearning](http://www.andrewng.org/)
- 
-
-### 3.Video
+### 2.Video
 	
 1.[https://www.youtube.com/watch?v=ZmNOAtZIgIk](https://www.youtube.com/watch?v=ZmNOAtZIgIk)
