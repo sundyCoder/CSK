@@ -1,10 +1,10 @@
 #Sundy
 
-##Android Studio development
+## Android Studio development ##
 
-###1. Download Android Studio
+### 1. Download Android Studio
 [https://developer.android.com/studio/index.html](https://developer.android.com/studio/index.html)
-###2. Download JDK
+### 2. Download JDK ###
 [http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
 	环境变量的配置

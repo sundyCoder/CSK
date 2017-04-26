@@ -1,6 +1,6 @@
-#![](http://i.imgur.com/AsHqrkf.png)
-##![](http://i.imgur.com/S7xBFja.png)Latex Tutorial
-###![](http://i.imgur.com/S7xBFja.png)Lesson 1. Basic Introduction
+# ![](http://i.imgur.com/AsHqrkf.png)
+## ![](http://i.imgur.com/S7xBFja.png)Latex Tutorial
+### ![](http://i.imgur.com/S7xBFja.png)Lesson 1. Basic Introduction
 	eg:
 	\documentclass{article}
 	\title{My first document}
@@ -15,9 +15,9 @@
 	 Hello World!
 	\pagenumbering{}
 	\end{document}
-###Output:
+### Output:
 ![](http://i.imgur.com/P4W9iW7.png)
-###Summary:
+### Summary:
 - A document has a preamble and document part
 - The document environment must be defined
 - Commands beginning with a backslash \, environments have a begin and end tag
@@ -26,7 +26,7 @@
 	arabic numbers
 	roman numbers
 
-###![](http://i.imgur.com/S7xBFja.png)Lession 2. Adding paragraphs and sections
+### ![](http://i.imgur.com/S7xBFja.png)Lession 2. Adding paragraphs and sections
 	\documentclass{article}
 	\title{My first document}
 	\author{Sundy}
@@ -59,12 +59,12 @@
 ###Output:
 ![](http://i.imgur.com/pTSdPWT.png)	
 
-###summary:
+### summary:
 1. LaTeX uses the commands **\section**, **\subsection** and **\subsubsection** to define sections in your document
 1. The sections will have successive numbers and appear in the table of contents
 1. Paragraphs are not numbered and thus don't appear in the table of contents
 
-###![](http://i.imgur.com/S7xBFja.png)Lession 3.Adding more functions to LaTeX
+### ![](http://i.imgur.com/S7xBFja.png)Lession 3.Adding more functions to LaTeX
 1.Math equation
 	documentclass{article}
 	
@@ -93,12 +93,12 @@ Output:
 ![](http://i.imgur.com/GR6RHHI.png)
 
 加了包之后，我们发现公式后面的(1)不见了。
-###Summary:
+### Summary:
 1. Packages add new functions to LaTeX
 2. All packages must be included in the preamble
 3. Packages add features such as support for pictures, links and bibliography
 
-###![](http://i.imgur.com/S7xBFja.png)Lesson 4. Typesetting math in LaTeX
+### ![](http://i.imgur.com/S7xBFja.png)Lesson 4. Typesetting math in LaTeX
 ####1. Inline Math
 在文字之间嵌入数学公式:
 
@@ -106,7 +106,7 @@ Output:
 		This formula $f(x) = x^2$ is an example.
 		...
 也就是公式放在2个$之间。
-####2. Equations
+#### 2. Equations
 The equation and align environment
 
 	\begin{align*}
@@ -114,22 +114,22 @@ The equation and align environment
 	  1 &= 3 - 2
 	\end{align*}
 
-####3. Fractions
+#### 3. Fractions
 	\begin{align*}
 	  f(x) &= x^2\\
 	  g(x) &= \frac{1}{x}\\
 	  F(x) &= \int^a_b \frac{1}{3}x^3
 	\end{align*}
-####4. Matrices
+#### 4. Matrices
 	\left[
 	\begin{matrix}
 	1 & 0\\
 	0 & 1
 	\end{matrix}
 	\right]
-####5. Scaling of Parentheses, Brackets 
+#### 5. Scaling of Parentheses, Brackets 
 	\left(\frac{1}{\sqrt{x}}\right)
-###Summary
+### Summary
 
 1. LaTeX is a powerful tool to typeset math
 2. Embed formulas in your text by surrounding them with dollar signs $
@@ -145,7 +145,7 @@ The equation and align environment
 	1. \sqrt{x} for square roots
 1. Characters for the greek alphabet and other mathematical symbols such as \lambda
 
-###![](http://i.imgur.com/S7xBFja.png)Lesson 5.Adding figures in LaTeX - Embed an image/picture
+### ![](http://i.imgur.com/S7xBFja.png)Lesson 5.Adding figures in LaTeX - Embed an image/picture
 	\begin{figure}[h!]
 	  \includegraphics[width=\linewidth]{boat.jpg}
 	  \caption{A boat.}
@@ -165,7 +165,7 @@ Setting the float by adding [h!] behind the figure environment \begin tag will f
 	! (override) - will force the specified location
 However, I have only used the [h!] option so far. The float package (\usepackage{float}) allows to set the option to [H], which is even stricter than [h!].
 
-###Summary
+### Summary
 
 1. Use the graphicx package and figure environment to embed pictures
 1. Pictures will be numbered automatically
@@ -173,7 +173,7 @@ However, I have only used the [h!] option so far. The float package (\usepackage
 1. Refer to pictures in your document by setting a \label and using the \ref tag
 1. Set the position of your image by adding a float option such as [h!]
 
-###![](http://i.imgur.com/S7xBFja.png)Lesson 6.Generate a table of contents in LaTeX
+### ![](http://i.imgur.com/S7xBFja.png)Lesson 6.Generate a table of contents in LaTeX
 	\begin{figure}
 	  \caption{Dummy figure}
 	\end{figure}
@@ -187,12 +187,12 @@ However, I have only used the [h!] option so far. The float package (\usepackage
 	  \listoftables
 	\end{appendix}
 
-###Summary
+### Summary
 1. Autogenerate a table of content using \tableofcontents
 1. Create lists of your figures and tables with \listoffigures and \listoftables
 1. Always compile twice to see the changes
 
-###![](http://i.imgur.com/S7xBFja.png)Lesson 7. Bibliography in LaTeX with Bibtex/Biblatex
+### ![](http://i.imgur.com/S7xBFja.png)Lesson 7. Bibliography in LaTeX with Bibtex/Biblatex
 Random copy a bib information from google scholar, and then save it as example.bib.
 
 For example:
@@ -217,10 +217,10 @@ In latex, write the code as below:
 	\bibliography{example} 
 	\bibliographystyle{ieeetr}
 
-###Output:
+### Output:
 ![](http://i.imgur.com/Z5mr7Lx.png)
 
-###Summary
+### Summary
 
 1. Generate a bibliography with BibTeX and BibLaTeX
 1. First define a .bib file using: \bibliography{BIB_FILE_NAME} (do not add .bib)
@@ -290,7 +290,7 @@ Example2:
 
 Include: \usepackage{booktabs}, otherwise, there will be a error.
 
-###Summary
+### Summary
 
 1. LaTeX offers the table and tabular environment for table creation
 1. The table environment acts like a wrapper for the tabular similar to the figure environment
@@ -301,7 +301,7 @@ Include: \usepackage{booktabs}, otherwise, there will be a error.
 1. The newline \\ operator indicates the end of a row
 1. It's possible to refer to tables using \ref and \label
 
-###![](http://i.imgur.com/S7xBFja.png)Lesson 9. Tables from .csv in LaTeX with pgfplotstable
+### ![](http://i.imgur.com/S7xBFja.png)Lesson 9. Tables from .csv in LaTeX with pgfplotstable
 Use the package pgfplotstable to read tables from .csv files automatically and add them to your document.
 
 	\begin{table}[h!]
@@ -328,7 +328,7 @@ Use the package pgfplotstable to read tables from .csv files automatically and a
 	  \end{center}
 	\end{table}
 
-###Summary
+### Summary
 
 1. LaTeX can generate tables from .csv files automatically
 1. Copy and paste the above snippet and packages to get it to work hassle free
@@ -337,7 +337,7 @@ Use the package pgfplotstable to read tables from .csv files automatically and a
 1. Have a .csv file seperated with comma as column seperator and newline as row seperator
 1. Does only work for tables smaller than one page
 
-###![](http://i.imgur.com/S7xBFja.png)Lesson 10. Plots in LaTeX - Visualize data with pgfplots
+### ![](http://i.imgur.com/S7xBFja.png)Lesson 10. Plots in LaTeX - Visualize data with pgfplots
 The pgfplots package from tikz/pgf enabled you to plot data directly from .csv files in LaTeX.
 
 	...
@@ -373,17 +373,17 @@ The pgfplots package from tikz/pgf enabled you to plot data directly from .csv f
 	\end{figure}
 	...
 
-####Output:
+#### Output:
 ![](http://i.imgur.com/QtWyiRd.png)
 
-###Summary
+### Summary
 1. Plotting is easy with pgfplots, it plots data directly from .csv files
 1. Select a column by the actual name from the .csv file using table[x=column 1,y=column 2…
 
-###![](http://i.imgur.com/S7xBFja.png)Lesson 11. Draw pictures in LaTeX - With tikz/pgf
+### ![](http://i.imgur.com/S7xBFja.png)Lesson 11. Draw pictures in LaTeX - With tikz/pgf
 The pgf/tikz package allows you to draw pictures from within your LaTeX document to keep the style consistent throughout your document.
 
-###The syntax of Tikz
+### The syntax of Tikz
 
 To demonstrate the basic syntax, we will have a closer look at the line that draws the red rectangle in our picture:
 
@@ -410,10 +410,10 @@ To demonstrate the basic syntax, we will have a closer look at the line that dra
 	\end{figure}
 	\end{document}
 
-###Output:
+### Output:
 ![](http://i.imgur.com/2tO3Ocb.png)
 
-###Summary
+### Summary
 
 1. Tikz can be used to draw graphics from within the LaTeX document
 1. No graphical user interface, instead pictures are programmed
@@ -422,7 +422,7 @@ To demonstrate the basic syntax, we will have a closer look at the line that dra
 1. Extensions available to easy creation of diagrams, flowcharts and so forth
 
 
-###![](http://i.imgur.com/S7xBFja.png)Lesson 12. Circuit diagrams in LaTeX - Using Circuitikz
+### ![](http://i.imgur.com/S7xBFja.png)Lesson 12. Circuit diagrams in LaTeX - Using Circuitikz
 Add neat circuit diagrams to your paper with circuitikz, extending tikz with electric components.
 	\documentclass{article}
 	
@@ -446,15 +446,15 @@ Add neat circuit diagrams to your paper with circuitikz, extending tikz with ele
 	
 	\end{document}
 
-###Output:
+### Output:
 ![](http://i.imgur.com/WNhhPzW.png)
 
-###Summary:
+### Summary:
 1. Circuitikz provides an environment to draw electric circuit diagrams
 1. The syntax is similar to the plain Tikz syntax
 1. A list of all symbols is available in the circutikz manual
 
-###![](http://i.imgur.com/S7xBFja.png)Lesson 13. Source code highlighting in LaTeX using the listings package (lstlisting)
+### ![](http://i.imgur.com/S7xBFja.png)Lesson 13. Source code highlighting in LaTeX using the listings package (lstlisting)
 
 The listings package offers source code highlighting for various languages. Learn by example how to use it in your LaTeX documents.
 
@@ -496,7 +496,7 @@ The output of the listings package will pretty much look like this after some se
 	\end{lstlisting}
 	\end{document}
 
-###Output:
+### Output:
 ![](http://i.imgur.com/iyJkvh6.png)
 
 
