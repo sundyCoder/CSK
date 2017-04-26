@@ -14,6 +14,8 @@
 # ![](http://i.imgur.com/S7xBFja.png)知识总结 #
 ---
 ## [计算机学习总结](https://github.com/sundyCoder/CSK) ##
+- [深度学习](https://github.com/sundyCoder/CSK/tree/master/DL/README.md)
+- [机器学习](https://github.com/sundyCoder/CSK/tree/master/ML/README.md)
 - [OpenCV](https://github.com/sundyCoder/CSK/blob/master/Opencv/README.md)
 - [Robotic Control](https://github.com/sundyCoder/CSK/blob/master/Robot/README.md)
 - [C++学习](https://github.com/sundyCoder/CSK/blob/master/C++/README.md)

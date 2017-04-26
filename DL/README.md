@@ -1,5 +1,7 @@
-#Sundy
-##Unsupervised Feature Learning and Deep Learning
+# Sundy #
+
+## Unsupervised Feature Learning and Deep Learning ##
+
 Knowledge：
 
 一、机器学习基础
@@ -68,8 +70,8 @@ Knowledge：
 七、强化学习
 
 	1.强化学习的理论知识
-	2.经典模型DQN讲解
-	3.AlphaGo原理讲解
+	2.经典模型DQN
+	3.AlphaGo原理
 	4.RL实际应用
 		(1).AlphaGo     
 
@@ -96,15 +98,17 @@ Knowledge：
 		(5).强化迁移学习
 		(6).迁移学习的研究案例
 		(7).迁移学习的应用
-		(8).2017年AAAI最佳论文讲解：利用物理定理的知识迁移到视频理解
+		(8).2017年AAAI最佳论文：利用物理定理的知识迁移到视频理解
 
-###1. Tutorial
+### 1. Tutorial
 
 1. [Unsupervised Feature Learning and Deep Learning](http://deeplearning.stanford.edu/wiki/index.php/Main_Page)
-###2. Book
+### 2. Book
 
-1. [Machine Learning Yearning](http://www.andrewng.org/)
+1. [NN Deep Learning](http://neuralnetworksanddeeplearning.com//)
+2. [Machine Learning Yearning](http://www.andrewng.org/)
+ 
 
-###3.Video
+### 3.Video
 	
 1.[https://www.youtube.com/watch?v=ZmNOAtZIgIk](https://www.youtube.com/watch?v=ZmNOAtZIgIk)
