@@ -66,6 +66,10 @@ Example1: [http://blog.csdn.net/xiaoquantouer/article/details/51840332](http://b
    	ALTER TABLE <table_name> MODIFY <field_name> VARCHAR(13);
    	eg: UPDATE t_indicator SET Communication_number='1064816664617' WHERE CODE=001
 
+   （8）更改root密码
+
+	SET PASSWORD FOR 'root'@'localhost' = PASSWORD('xxx@xxx');
+
 
 ###(2) install mysql on ubuntu
 
