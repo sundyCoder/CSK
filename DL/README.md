@@ -7,8 +7,9 @@ Knowledge：
 
 1. [NN Deep Learning中文版](https://hit-scir.gitbooks.io/neural-networks-and-deep-learning-zh_cn/content/index.html)
 2. [NN Deep Learning英文版](http://neuralnetworksanddeeplearning.com//)
+3. [Evaluation of Deep Learning Toolkits](https://github.com/zer0n/deepframeworks)
+4. [超智能体](https://yjango.gitbooks.io/superorganism/content/)
 
- 
 
 一、机器学习基础
 
