@@ -1,3 +1,0 @@
-﻿  Example.cpp
-f:\swigexample\swigexample\src\example.cpp(29): warning C4172: returning address of local variable or temporary: str
-  SwigExample.vcxproj -> F:\SwigExample\x64\Debug\SwigExample.lib

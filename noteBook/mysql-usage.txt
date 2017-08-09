@@ -1,0 +1,27 @@
+
+1. sudo vim /etc/mysql/mysql.conf.d/mysqld.cnf
+    注释掉 bind-address = 127.0.0.1
+2. mysql -u root -p
+3. user mysql 
+   GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'lens' WITH GRANT OPTION;
+   flush privileges;
+4. sudo /etc/init.d/mysql restart
+
+
+2. lavalite
+	git clone git@github.com:LavaLite/cms.git
+	composer install
+	composer create-project LavaLite/cms --prefer-dist website
+	vim .env
+	 sudo apt-get install php libapache2-mod-php
+	 npm install
+	gulp all
+	
+   php artisan lavalite:install  配置数据库
+   php artisan serve   部署
+
+   user: sundycoder@gmail.com
+   passwd: lam@lens
+   
+  
+    
