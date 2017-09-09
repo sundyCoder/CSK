@@ -5,23 +5,12 @@
 
 [https://github.com/happynear/caffe-windows](https://github.com/happynear/caffe-windows)
 
-###2. How to build it using vs2013 in windows.
-	md caffe
-	cd caffe
-	git clone https://github.com/willyd/caffe.git caffe
-	git checkout windows
-Then, open Caffe.sln using vs2013 and build each module.
-
-
-###3. How to debug Caffe using vs2013
-[http://blog.csdn.net/tsyccnh/article/details/51679121](http://blog.csdn.net/tsyccnh/article/details/51679121)
-
-###4. Read Caffe Source code
+###2. Read Caffe Source code
 1.Debug[]()
 
 2. [Implement L2 Normalization Layer in Caffe](http://freesouls.github.io/2015/08/30/caffe-implement-l2-normlization-layer/)
 
-###5. Usage(windows)
+###3. Usage(windows)
 ####0. Query the gpu devices.
 
 	caffe device_query -gpu all
@@ -160,5 +149,5 @@ Then, open Caffe.sln using vs2013 and build each module.
 ###6. Others
 1. [Hacker's guide to Neural Networks](http://karpathy.github.io/neuralnets/)
 2. [Caffe Regression](https://github.com/qiexing/caffe-regression)
-3. jupyter.exe notebook --port 9999
+3. [Resource](http://blog.csdn.net/danieljianfeng/article/details/43151421)
 
