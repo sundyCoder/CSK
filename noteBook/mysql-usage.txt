@@ -13,15 +13,35 @@
 	composer install
 	composer create-project LavaLite/cms --prefer-dist website
 	vim .env
-	 sudo apt-get install php libapache2-mod-php
-	 npm install
+	sudo apt-get install php libapache2-mod-php
+	npm install
 	gulp all
 	
-   php artisan lavalite:install  配置数据库
-   php artisan serve   部署
+   php artisan config:clear 
+   //配置数据库
+   php artisan lavalite:install 
+   //部署
+   php artisan serve   
 
    user: sundycoder@gmail.com
    passwd: lam@lens
    
   
-    
+   php artisan key:generate
+   php artisan config:cache
+
+   php artisan optimize --force
+   php artisan config:cache
+   php artisan route:cache
+   composer dump-autoload
+
+
+
+a. php artisan vendor:publish
+b. php artisan migrate
+c. composer dump-autoload
+d. 开始填充数据
+	php artisan db:seed
+	
+e.  填充指定的数据
+	php artisan db:seed --class=你要执行的类名称
