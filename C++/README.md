@@ -1,12 +1,12 @@
-#Sundy
-##C++ 学习总结
+# Sundy
+## C++ 学习总结
 
-###C++风格指南
+### C++风格指南
 [http://zh-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/contents/](http://zh-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/contents/)
 
 http://cppcheck.sourceforge.net/
 
-###基础知识
+### 基础知识
 
 [week01](https://github.com/sundyCoder/CSK/blob/master/C++/week01.md)
 
@@ -28,7 +28,7 @@ http://cppcheck.sourceforge.net/
 
 [week10](https://github.com/sundyCoder/CSK/blob/master/C++/week10.md)
 
-###专题总结
+### 专题总结
 
 
 [专题1-1-c语言能否做面向对象的设计](https://github.com/sundyCoder/CSK/blob/master/C++/专题1-1-c语言能否做面向对象的设计.md)                                           

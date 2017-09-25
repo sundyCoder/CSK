@@ -1,9 +1,0 @@
-string txtName = out_folder + fln + ".txt";
-ofstream outFile(txtName);
-char str[256] = "";
-int x = defectout.vDefects.at(dN).defectRect.x;
-int y = defectout.vDefects.at(dN).defectRect.y;
-int width = defectout.vDefects.at(dN).defectRect.width;
-int height = defectout.vDefects.at(dN).defectRect.height;*/
-sprintf(str, "%d,%d,%d,%d\n", x, y, width, height);
-outFile << str;
