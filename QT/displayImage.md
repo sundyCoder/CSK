@@ -1,4 +1,4 @@
-###QT中使用OpenCV在空间中显示图片
+### QT中使用OpenCV在空间中显示图片
 
 作者：TY Sun
 链接：https://zhuanlan.zhihu.com/p/23612980

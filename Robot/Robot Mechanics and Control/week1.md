@@ -1,8 +1,8 @@
-#![](http://i.imgur.com/AsHqrkf.png)
-##![](http://i.imgur.com/S7xBFja.png)Robot Mechanics and Control, Part 1
-##![](http://i.imgur.com/S7xBFja.png)Week 1
-###Course Introduction
-###1.1 Degrees of freedom, grasp statics, forward and inverse kinematics
+# ![](http://i.imgur.com/AsHqrkf.png)
+## ![](http://i.imgur.com/S7xBFja.png)Robot Mechanics and Control, Part 1
+## ![](http://i.imgur.com/S7xBFja.png)Week 1
+### Course Introduction
+### 1.1 Degrees of freedom, grasp statics, forward and inverse kinematics
 Basic concepts: links, joint, open chain, closed chain,rigid body,end-effector, orientations, rigid-body motions. nonredundant robots, redundant robots.
 
 **A typical robot consists of joints, links, and an end-effector**
@@ -13,7 +13,7 @@ Basic concepts: links, joint, open chain, closed chain,rigid body,end-effector, 
 ![](http://i.imgur.com/ej0LXf9.jpg)
 - **Inverse Kinematics(opposite of the forward kinematics)**:In this case what we are doing is, we are given Px, Py, the desired location of the hand, and we want to find the joint values theta1, theta2 that will move the robot to the desired hand location.
 
-###1.2. Velocity analysis, planning, and control
+### 1.2. Velocity analysis, planning, and control
 - **Jacobian matrix**: Suppose the inputs to tue robots are velocities.I use the Jacobian to determine the necessary velocities.
 - **Planning**: This is the actual path and this white path was my desired path. So what happened? Why is it doing this? Why is it not behaving the way I want it to?  
 	ERRORS: 
@@ -27,8 +27,8 @@ Basic concepts: links, joint, open chain, closed chain,rigid body,end-effector, 
 	- other unmodeled errors.
 - **Feedback control**: The idea is to use measurements of the current state to compensate for the control so as to correct for errors.
 
-###Robot Configuration Space
-###1.1.Joints, links, mechanisms, configuration space, degrees of freedom
+### Robot Configuration Space
+### 1.1.Joints, links, mechanisms, configuration space, degrees of freedom
 1. where is the robot?
 	1. pick a reference frame: Reference frame:参考坐标，坐标系统
 	2. pick 3 points{A,B,C} on coin.
