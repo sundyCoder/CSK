@@ -1,7 +1,7 @@
-#Sundy
-##Python Spider
-###1. Using scrapy tools for website crawling.
-####(1). Install scrapy tools
+# Sundy
+## Python Spider
+### 1. Using scrapy tools for website crawling.
+#### (1). Install scrapy tools
 
 Scrapy由 Python 编写。如果您刚接触并且好奇这门语言的特性以及Scrapy的详情， 对于已经熟悉其他语言并且想快速学习Python的编程老手， 我们推荐 Learn Python The Hard Way ， 对于想从Python开始学习的编程新手， 非程序员的Python学习资料列表 将是您的选择。
 
@@ -17,7 +17,7 @@ Example1: [http://blog.csdn.net/xiaoquantouer/article/details/51840332](http://b
 
 	code: [https://github.com/xiaoquantou/jd_spider](https://github.com/xiaoquantou/jd_spider)
 
-(2)数据的持久化
+(2) 数据的持久化
 
 可以将爬到的数据存储到MySQL数据库， 复习一下简单的数据库的操作
 
@@ -71,7 +71,7 @@ Example1: [http://blog.csdn.net/xiaoquantouer/article/details/51840332](http://b
 	SET PASSWORD FOR 'root'@'localhost' = PASSWORD('xxx@xxx');
 
 
-###(2) install mysql on ubuntu
+### (2) install mysql on ubuntu
 
 1.mysql
 	sudo apt-get install mysql-client mysql-server
