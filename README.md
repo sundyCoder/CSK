@@ -19,6 +19,7 @@
 - [OpenCV](https://github.com/sundyCoder/CSK/blob/master/Opencv/README.md)
 - [Robotic Control](https://github.com/sundyCoder/CSK/blob/master/Robot/README.md)
 - [C++学习](https://github.com/sundyCoder/CSK/blob/master/C++/README.md)
+- [Python笔记](https://github.com/sundyCoder/CSK/tree/master/python)
 - [Latex配置](https://github.com/sundyCoder/CSK/blob/master/Tools/LaTex-Sublime.md)
 - [Latex入门](https://github.com/sundyCoder/CSK/blob/master/Tools/Latex-Tutorial.md)
 - [Markdown使用](https://github.com/sundyCoder/CSK/blob/master/Tools/Markdown-Notes.md)
