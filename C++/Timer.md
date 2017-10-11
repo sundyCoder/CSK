@@ -1,5 +1,5 @@
-#Sundy
-##毫秒计时器
+# Sundy
+## 毫秒计时器
 	
 	LARGE_INTEGER frequency;        // ticks per second
 	LARGE_INTEGER t1, t2;           // ticks

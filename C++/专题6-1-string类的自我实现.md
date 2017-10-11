@@ -1,5 +1,5 @@
-#Sundy
-##实现string 类。
+# Sundy
+## 实现string 类。
 
 	#include <iostream>
 	using namespace std;

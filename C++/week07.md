@@ -1,7 +1,7 @@
-#Sundy
-##C++学习总结week07
+# Sundy
+## C++学习总结week07
 
-###涉及内容:
+### 涉及内容:
 
 	  IO流
 	  自定义模板
@@ -9,7 +9,7 @@
 	  STL
 	  数据结构和算法
 
-###一.I/O流(标准IO（控制台IO）cin,cout,cerr,clog) (其中的c代表console)
+### 一.I/O流(标准IO（控制台IO）cin,cout,cerr,clog) (其中的c代表console)
 1 输入:从键盘提取数据->键盘缓冲区->输入缓冲区->应用程序
 
 	输入流对象cin(全局的，唯一)  
@@ -106,7 +106,7 @@
 	         	  }
 	                }; 
 
-###二 ostream
+### 二 ostream
  1 除开width()是一次性的，其余都是永久性的。   
  
 	    cout.width(10); //only onece
@@ -164,7 +164,7 @@
 	}
 
 
-###四 read(char *xx ) 和 write(char *xx)
+### 四 read(char *xx ) 和 write(char *xx)
  1 write()向磁盘中写数据
 	
 		ofstream fout("test.dat");
@@ -187,7 +187,7 @@
 		fin.read((char*)str.c_str(),str.size());
 		fin.read((char *)&b,sizeof(b));
 
-###五 模板（参数化的类型）
+### 五 模板（参数化的类型）
 	  template <typename T>  .....
 	  template <class T> ....
 
@@ -196,7 +196,8 @@
 	using namespace std;
 	
 	//typedef int T;
-	template <typename T> void bubble_sort(T* ds,int n){ //模板的形参，会根据适当的类型填充
+	template <typename T> 
+	void bubble_sort(T* ds,int n){ //模板的形参，会根据适当的类型填充
 		for (int i = 1; i < n; ++i) {
 			for (int j = 0; j < n-i; ++j) {
 				if(ds[j] > ds[j+1]){
@@ -230,7 +231,7 @@
 
 
 
-###作业：
+### 作业：
 - 1 自己用get()实现ignore()函数
 - 2 实现在字符串从磁盘中读出来。
 - 3 看看osstream

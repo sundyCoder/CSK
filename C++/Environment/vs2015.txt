@@ -1,3 +1,0 @@
-1.Custome install path.
-	H:\>vs_community.exe /uninstall /force
-	H:\>vs_community.exe /CustomInstallPath  C:\Program Files\vs2015

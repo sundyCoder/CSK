@@ -1,6 +1,6 @@
-#Sundy
-##C++学习总结week03
-###一.复习上节课
+# Sundy
+## C++学习总结week03
+### 一.复习上节课
 1 static 静态的
 
 在C语言中:
@@ -12,7 +12,6 @@
 在C++中 :
 
 - (1)修饰成员变量(静态成员变量)  需要在类外进行初始化
-
 	
 		class A{static int i;int j; char c;static void fn(){}; void fn2(){};}
 		int A::i = 0;

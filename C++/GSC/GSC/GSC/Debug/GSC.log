@@ -1,0 +1,4 @@
+﻿  data_structure.cpp
+c:\users\a1838\onedrive\csk\c++\gsc\gsc\gsc\data_structure.cpp(16): warning C4101: 'array_test': unreferenced local variable
+  GSC.vcxproj -> C:\Users\A1838\OneDrive\CSK\C++\GSC\GSC\Debug\GSC.exe
+  GSC.vcxproj -> C:\Users\A1838\OneDrive\CSK\C++\GSC\GSC\Debug\GSC.pdb (Partial PDB)
