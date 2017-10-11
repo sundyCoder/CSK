@@ -11,7 +11,6 @@ private:
 	struct Node{   //每个节点类型
 		T data;    //数据节点
 		Node* next;//指向下一个节点的指针
-
 		Node(T data):data(data),next(NULL){} //构造函数初始化
 	};
 Node* head;   //头指针
