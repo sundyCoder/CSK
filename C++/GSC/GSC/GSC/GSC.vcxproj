@@ -112,14 +112,18 @@
   <ItemGroup>
     <ClCompile Include="data_structure.cpp" />
     <ClCompile Include="emplace.cpp" />
-    <ClCompile Include="exp0.cpp" />
+    <ClCompile Include="exp0_vector.cpp" />
     <ClCompile Include="exp1.cpp" />
-    <ClCompile Include="exp2.cpp" />
+    <ClCompile Include="exp10_multithread.cpp" />
+    <ClCompile Include="exp11_shuffle.cpp" />
+    <ClCompile Include="exp2_mutex.cpp" />
     <ClCompile Include="exp3.cpp" />
-    <ClCompile Include="exp4.cpp" />
-    <ClCompile Include="exp5.cpp" />
-    <ClCompile Include="exp6.cpp" />
-    <ClCompile Include="exp7.cpp" />
+    <ClCompile Include="exp4_search_target.cpp" />
+    <ClCompile Include="exp5_map_set.cpp" />
+    <ClCompile Include="exp6_forward_list.cpp" />
+    <ClCompile Include="exp7_ch.cpp" />
+    <ClCompile Include="exp8_dp.cpp" />
+    <ClCompile Include="exp9_COO.cpp" />
     <ClCompile Include="unordered_map.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

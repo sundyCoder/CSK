@@ -1,3 +1,5 @@
-﻿  exp7.cpp
+﻿  exp11_shuffle.cpp
+c:\users\a1838\onedrive\csk\c++\gsc\gsc\gsc\exp11_shuffle.cpp(10): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\a1838\onedrive\csk\c++\gsc\gsc\gsc\exp11_shuffle.cpp(15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
   GSC.vcxproj -> C:\Users\A1838\OneDrive\CSK\C++\GSC\GSC\x64\Debug\GSC.exe
   GSC.vcxproj -> C:\Users\A1838\OneDrive\CSK\C++\GSC\GSC\x64\Debug\GSC.pdb (Partial PDB)

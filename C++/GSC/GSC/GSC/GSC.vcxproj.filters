@@ -21,28 +21,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="exp0.cpp">
-      <Filter>Source Files\test</Filter>
-    </ClCompile>
     <ClCompile Include="exp1.cpp">
-      <Filter>Source Files\test</Filter>
-    </ClCompile>
-    <ClCompile Include="exp2.cpp">
       <Filter>Source Files\test</Filter>
     </ClCompile>
     <ClCompile Include="exp3.cpp">
       <Filter>Source Files\test</Filter>
     </ClCompile>
-    <ClCompile Include="exp4.cpp">
-      <Filter>Source Files\test</Filter>
-    </ClCompile>
-    <ClCompile Include="exp5.cpp">
-      <Filter>Source Files\test</Filter>
-    </ClCompile>
     <ClCompile Include="unordered_map.cpp">
-      <Filter>Source Files\test</Filter>
-    </ClCompile>
-    <ClCompile Include="exp6.cpp">
       <Filter>Source Files\test</Filter>
     </ClCompile>
     <ClCompile Include="emplace.cpp">
@@ -51,7 +36,34 @@
     <ClCompile Include="data_structure.cpp">
       <Filter>Source Files\test</Filter>
     </ClCompile>
-    <ClCompile Include="exp7.cpp">
+    <ClCompile Include="exp8_dp.cpp">
+      <Filter>Source Files\test</Filter>
+    </ClCompile>
+    <ClCompile Include="exp7_ch.cpp">
+      <Filter>Source Files\test</Filter>
+    </ClCompile>
+    <ClCompile Include="exp6_forward_list.cpp">
+      <Filter>Source Files\test</Filter>
+    </ClCompile>
+    <ClCompile Include="exp5_map_set.cpp">
+      <Filter>Source Files\test</Filter>
+    </ClCompile>
+    <ClCompile Include="exp4_search_target.cpp">
+      <Filter>Source Files\test</Filter>
+    </ClCompile>
+    <ClCompile Include="exp2_mutex.cpp">
+      <Filter>Source Files\test</Filter>
+    </ClCompile>
+    <ClCompile Include="exp0_vector.cpp">
+      <Filter>Source Files\test</Filter>
+    </ClCompile>
+    <ClCompile Include="exp9_COO.cpp">
+      <Filter>Source Files\test</Filter>
+    </ClCompile>
+    <ClCompile Include="exp10_multithread.cpp">
+      <Filter>Source Files\test</Filter>
+    </ClCompile>
+    <ClCompile Include="exp11_shuffle.cpp">
       <Filter>Source Files\test</Filter>
     </ClCompile>
   </ItemGroup>
