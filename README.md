@@ -14,12 +14,13 @@
 # ![](http://i.imgur.com/S7xBFja.png)知识总结 #
 ---
 ## [计算机学习总结](https://github.com/sundyCoder/CSK) ##
-- [深度学习](5@CSML/DL/README.md)
-- [机器学习](5@CSML/ML/README.md)
+- [计算机基础](2@CSAPP/README.md)
+- [算法导论](3@CSDS/README.md)
+- [机器学习](5@CSML/README.md)
 - [OpenCV](4@CSCV/Opencv/README.md)
-- [Robotic Control](6@CSP/Robot/README.md)
 - [C++学习](1@CSLG/README.md)
 - [Python笔记](1@CSLG/Python/README.md)
+- [Robotic Control](6@CSP/Robot/README.md)
 - [Latex配置](Tools/LaTex-Sublime.md)
 - [Latex入门](Tools/Latex-Tutorial.md)
 - [Markdown使用](Tools/Markdown-Notes.md)
