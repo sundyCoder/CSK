@@ -66,5 +66,13 @@
     <ClCompile Include="exp11_shuffle.cpp">
       <Filter>Source Files\test</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\main.cpp">
+      <Filter>Source Files\GSC</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\sort.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

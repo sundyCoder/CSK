@@ -1,0 +1,72 @@
+1. Why is a binary tree better than a hash table?
+	a. We can get all keys in sorted order by just doing Inorder Traversal of BST. This is not a natural operation in Hash Tables and requires extra efforts.
+	b. Doing order statistics, finding closest lower and greater elements, doing range queries are easy to do with BSTs. Like sorting, these operations are not a natural operation with Hash Tables.
+	c. BSTs are easy to implement compared to hashing, we can easily implement our own customized BST. To implement Hashing, we generally rely on libraries provided by programming languages.
+	d. With BSTs, all operations are guaranteed to work in O(Logn) time. But with Hashing, Θ(1) is average time and some particular operations may be costly, especially when table resizing happens.
+
+2. Why is a hash table better than a binary tree?
+	Hash Table supports following operations in Θ(1) time.
+	1) Search
+	2) Insert
+	3) Delete
+
+	The time complexity of above operations in a self-balancing Binary Search Tree (BST) (like Red-Black Tree, AVL Tree, Splay Tree, etc) is O(Logn).
+
+3. What differentiates propositional logic from first order logic? Which is better?
+	In propositional logic you are allowed to use the usual propositional connectives (and, or, ...). In first order logic you are allowed to quantify (forall, exist) over variables, which makes it strictly more expressive.
+
+4. When should you use functional programming vs. objected oriented programming?
+	Funtional programming focus on the data mapping. 
+	OOP focus on the procudure of problem-solving.
+
+	Object-oriented languages are good when you have a fixed set of operations on things, and as your code evolves, you primarily add new things. This can be accomplished by adding new classes which implement existing methods, and the existing classes are left alone.
+
+	Functional languages are good when you have a fixed set of things, and as your code evolves, you primarily add new operations on existing things. This can be accomplished by adding new functions which compute with existing data types, and the existing functions are left alone.
+
+5. How could you set up a recursive function so that a smart language / compiler could evaluate the function and never run out of memory?
+	
+
+6. Talk me through the concept of inheritance in C++.
+	Inheritance allows us to define a class in terms of another class, which makes it easier to create and maintain an application. This also provides an opportunity to reuse the code functionality and fast implementation time.
+
+7. Talk me through the Java design patterns you know.
+	factory pattern: Factory pattern is one of the most used design patterns in Java. This type of design pattern comes under creational pattern as this pattern provides one of the best ways to create an object. In Factory pattern, we create object without exposing the creation logic to the client and refer to newly created object using a common interface.
+
+	Singleton pattern: This pattern involves a single class which is responsible to create an object while making sure that only single object gets created. This class provides a way to access its only object which can be accessed directly without need to instantiate the object of the class.
+
+	Chain of Responsibility pattern:  The chain of responsibility pattern creates a chain of receiver objects for a request. This pattern decouples sender and receiver of a request based on type of request. This pattern comes under behavioral patterns.
+
+	Observer Pattern: Observer pattern is used when there is one-to-many relationship between objects such as if one object is modified, its depenedent objects are to be notified automatically. Observer pattern falls under behavioral pattern category.
+
+
+8. What’s a Linked List? Can you build one?
+	Like arrays, Linked list is a linear data structure. Unlike arrays,linked list elements are not stored at contiguous location, the elements are linked using pointers.
+
+9. How would you find the middle element in a Linked List?
+	Method 1:
+	Traverse the whole linked list and count the no. of nodes. Now traverse the list again till count/2 and return the node at count/2.
+
+	Method 2:
+	Traverse linked list using two pointers. Move one pointer by one and other pointer by two. When the fast pointer reaches end slow pointer will reach middle of the linked list.
+	
+
+10. How would you write a programme to find the biggest number in a list of 10 numbers?
+
+11. What’s Object Oriented Programming?
+	OOP is a programming method which treate everything as an object, the same object can abstract as a class. Every class have some same attribute and functions.
+
+12. How does Object Oriented Programming differ from Process Oriented Programming?
+	OOP: define every 
+
+13. What’s polymorphism in OOP?
+	Generally, the ability to appear in many forms. In object-oriented programming, polymorphism refers to a programming language's ability to process objects differently depending on their data type or class. More specifically, it is the ability to redefine methods for derived classes. For example, given a base class shape, polymorphism enables the programmer to define different area methods for any number of derived classes, such as circles, rectangles and triangles. No matter what shape an object is, applying the area method to it will return the correct results. Polymorphism is considered to be a requirement of any true object-oriented programming language (OOPL).
+
+14. If you had to make a program that could vote for the top three funniest people in the office how would you do that? How would you make it possible to vote on those people?
+
+Techonology:
+	1. If you have 100 continuous numbers, one number is missing, how do you find it?
+	2. Basic question about Strings, and a simple DP program.  
+	3. Do you know the difference between Outer join and Inner join?  
+	4. Calculate the factorial of a number?  
+	5. How do you balance a BST? Can you code that for me?
+	6. How can you check if a string has unique characters? (Make sure none of the characters repeat)  

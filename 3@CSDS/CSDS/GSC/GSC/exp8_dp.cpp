@@ -35,8 +35,8 @@ public:
 		int max_sum_so_far = 0;
 		int current_sum_so_far = 0;
 		for (int i = 0; i < n; i++) {
-			current_sum_so_far = std::max(current_sum_so_far + array[i], 0);
-			max_sum_so_far = std::max(max_sum_so_far, current_sum_so_far);
+			current_sum_so_far = max(current_sum_so_far + array[i], 0);
+			max_sum_so_far = max(max_sum_so_far, current_sum_so_far);
 		}
 		return max_sum_so_far;
 	}
