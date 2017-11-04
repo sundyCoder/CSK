@@ -14,17 +14,17 @@
 # ![](http://i.imgur.com/S7xBFja.png)知识总结 #
 ---
 ## [计算机学习总结](https://github.com/sundyCoder/CSK) ##
-- [深度学习](https://github.com/sundyCoder/CSK/tree/master/DL/README.md)
-- [机器学习](https://github.com/sundyCoder/CSK/tree/master/ML/README.md)
-- [OpenCV](https://github.com/sundyCoder/CSK/blob/master/Opencv/README.md)
-- [Robotic Control](https://github.com/sundyCoder/CSK/blob/master/Robot/README.md)
-- [C++学习](https://github.com/sundyCoder/CSK/blob/master/C++/README.md)
-- [Python笔记](https://github.com/sundyCoder/CSK/tree/master/python)
-- [Latex配置](https://github.com/sundyCoder/CSK/blob/master/Tools/LaTex-Sublime.md)
-- [Latex入门](https://github.com/sundyCoder/CSK/blob/master/Tools/Latex-Tutorial.md)
-- [Markdown使用](https://github.com/sundyCoder/CSK/blob/master/Tools/Markdown-Notes.md)
-- [Git常用命令](https://github.com/sundyCoder/CSK/blob/master/Tools/git-command.md)
-- [科研必备利器](https://github.com/sundyCoder/CSK/blob/master/Tools/Research-Tools.md)
+- [深度学习](5@CSML/DL/README.md)
+- [机器学习](5@CSML/ML/README.md)
+- [OpenCV](4@CSCV/Opencv/README.md)
+- [Robotic Control](6@CSP/Robot/README.md)
+- [C++学习](1@CSLG/README.md)
+- [Python笔记](1@CSLG/Python/README.md)
+- [Latex配置](Tools/LaTex-Sublime.md)
+- [Latex入门](Tools/Latex-Tutorial.md)
+- [Markdown使用](Tools/Markdown-Notes.md)
+- [Git常用命令](Tools/git-command.md)
+- [科研必备利器](/Tools/Research-Tools.md)
  
  
   
