@@ -1,5 +1,6 @@
 #include <limits>
 #include <iostream>
+#include <vector>
 using namespace std;
 
 namespace sort {
@@ -24,14 +25,15 @@ namespace sort {
 		void heapBuild(Dtype a[], int root, int length);
 		int heapSort(Dtype a[], int N);                   // 堆排序
 
-		//归并排序
+		// 归并排序
 		int merge(Dtype A[], int p, int q, int r);
 		int mergeSort(Dtype A[], int p, int r);
 
 		//2. Non-comparison sorting algorithm
-		int radixSort(Dtype A[], int N);              // 基排序
-		int countSort(Dtype A[], int N);           // 计数排序
-		int bucketSort(Dtype A[], int N);             // 桶排序
+		int countSort(int A[], int N, int exp);
+		int radixSort(int A[], int N);              // 基排序
+		int countSort(Dtype A[], int N);              // 计数排序
+		int bucketSort(float A[], int N);             // 桶排序
 
 	public:
 		int inf = std::numeric_limits<int>::max();
@@ -55,6 +57,16 @@ namespace sort {
 			}
 		}
 		return max;
+	}
+
+	int getMin(int A[], int N) {
+		int min = 0;
+		for (int i = 0; i < N; i++) {
+			if (A[i] < min) {
+				min = A[i];
+			}
+		}
+		return min;
 	}
 
 	/*
@@ -294,12 +306,45 @@ namespace sort {
 
 
 	/*
-	* 8. radixSort(基排序)
+	* 8. radixSort(基数排序)
 	*/
 	template <typename Dtype>
-	int Solution<Dtype>::radixSort(Dtype A[], int N) {
-		int max = getMax(A, N);
+	int Solution<Dtype>::countSort(int A[], int N, int exp) {
+		int *B = (int *)malloc(sizeof(int)*N);
+		for (int i = 0; i < N; i++) {
+			B[i] = 0;
+		}
 
+		int max = getMax(A, N);
+		int lenC = max + 1;
+		int *C = (int *)malloc(sizeof(int)*(lenC));
+		for (int i = 0; i < lenC; i++) {
+			C[i] = 0;
+		}
+
+		for (int i = 0; i < N; i++) {
+			++C[(A[i]/exp)%10];                  // 统计每个数字出现的次数
+		}
+		for (int j = 1; j < lenC; j++) {     // 更新统计数组
+			C[j] += C[j - 1];
+		}
+
+		for (int k = N - 1; k >= 0; k--) {    // 
+			B[C[A[k]/exp]%10 - 1] = A[k];
+			C[A[k]/exp%10]--;
+		}
+		for (int m = 0; m < N; m++) {
+			A[m] = B[m];
+		}
+		return 1;
+	}
+
+	template <typename Dtype>
+	int Solution<Dtype>::radixSort(int A[], int N) {
+		int max = getMax(A, N);
+		for (int exp = 1; max / exp > 0; exp *= 10) {
+			countSort(A, N, exp);
+		}
 		return 1;
 	}
 
@@ -314,22 +359,24 @@ namespace sort {
 			B[i] = 0;
 		}
 
-		int max = getMax(A,N);
-		int *C = (int *)malloc(sizeof(Dtype)*(max + 1));
-		for (int i = 0; i < max + 1; i++) {
+		int max = getMax(A, N);
+		int min = getMin(A, N);
+		int lenC = max - min + 1;
+		int *C = (int *)malloc(sizeof(Dtype)*(lenC));
+		for (int i = 0; i < lenC; i++) {
 			C[i] = 0;
 		}
 
 		for (int i = 0; i < N; i++) {
-			++C[A[i]];                         // 统计每个数字出现的次数
+			++C[A[i] - min];                  // 统计每个数字出现的次数
 		}
-		for (int j = 1; j < max + 1; j++) {    // 更新统计数组
+		for (int j = 1; j < lenC; j++) {     // 更新统计数组
 			C[j] += C[j - 1];
 		}
 
-		for (int k = N - 1; k >= 0; k--) {    // 
+		for (int k = N - 1; k >= 0; k--) {    // 根据源数据在C数组中的位置方向填充B
 			B[C[A[k]] - 1] = A[k];
-			C[A[k]]--;
+			C[A[k] - min]--;
 		}
 		for (int m = 0; m < N; m++) {
 			A[m] = B[m];
@@ -340,9 +387,27 @@ namespace sort {
 	/*
 	* 10.bucketSort(桶排序)
 	*/
+	
 	template <typename Dtype>
-	int Solution<Dtype>::bucketSort(Dtype A[], int N) {
+	int Solution<Dtype>::bucketSort(float A[], int N) {
+		// 1) Create n empty buckets
+		std::vector<float> b[10];
+
+		// 2) Put array elements in different buckets
+		for (int i = 0; i<N; i++) {
+			int bi = N*A[i]; // Index in bucket
+			b[bi].push_back(A[i]);
+		}
+
+		// 3) Sort individual buckets
+		for (int i = 0; i < N; i++)
+			std::sort(b[i].begin(), b[i].end());
+
+		// 4) Concatenate all buckets into arr[]
+		int index = 0;
+		for (int i = 0; i < N; i++)
+			for (int j = 0; j < b[i].size(); j++)
+				A[index++] = b[i][j];
 		return 1;
 	}
-
 }

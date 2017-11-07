@@ -69,9 +69,15 @@
     <ClCompile Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\main.cpp">
       <Filter>Source Files\GSC</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\bucket.cpp">
+      <Filter>Source Files\GSC</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\sort.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\array.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

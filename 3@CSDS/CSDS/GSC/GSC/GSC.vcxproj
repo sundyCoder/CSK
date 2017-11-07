@@ -110,6 +110,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\bucket.cpp" />
     <ClCompile Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\main.cpp" />
     <ClCompile Include="data_structure.cpp" />
     <ClCompile Include="emplace.cpp" />
@@ -128,6 +129,7 @@
     <ClCompile Include="unordered_map.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\array.hpp" />
     <ClInclude Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\sort.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
