@@ -22,16 +22,16 @@ namespace sort {
 		// 选择排序
 		int selectionSort(Dtype A[], int N);              // 直接选择排序
 		void heapBuild(Dtype a[], int root, int length);
-		int heapSort(Dtype a[], int N);                     // 堆排序
+		int heapSort(Dtype a[], int N);                   // 堆排序
 
 		//归并排序
 		int merge(Dtype A[], int p, int q, int r);
 		int mergeSort(Dtype A[], int p, int r);
 
 		//2. Non-comparison sorting algorithm
-		int radixSort(Dtype A[], int N);
-		int countingSort(Dtype A[], int N);
-		int bucketSort(Dtype A[], int N);
+		int radixSort(Dtype A[], int N);              // 基排序
+		int countSort(Dtype A[], int N);           // 计数排序
+		int bucketSort(Dtype A[], int N);             // 桶排序
 
 	public:
 		int inf = std::numeric_limits<int>::max();
@@ -44,6 +44,17 @@ namespace sort {
 		Dtype temp = *a;
 		*a = *b;
 		*b = temp;
+	}
+
+	//获取数组中的最大值
+	int getMax(int A[], int N) {
+		int max = 0;
+		for (int i = 0; i < N; i++) {
+			if (A[i] > max) {
+				max = A[i];
+			}
+		}
+		return max;
 	}
 
 	/*
@@ -287,15 +298,42 @@ namespace sort {
 	*/
 	template <typename Dtype>
 	int Solution<Dtype>::radixSort(Dtype A[], int N) {
+		int max = getMax(A, N);
+
 		return 1;
 	}
 
 	
 	/*
-	* 9. countingSort(计数排序)
+	* 9. counSort(计数排序)
 	*/
 	template <typename Dtype>
-	int Solution<Dtype>::countingSort(Dtype A[], int N) {
+	int Solution<Dtype>::countSort(Dtype A[], int N) {
+		int *B = (int *)malloc(sizeof(Dtype)*N);
+		for (int i = 0; i < N; i++) {
+			B[i] = 0;
+		}
+
+		int max = getMax(A,N);
+		int *C = (int *)malloc(sizeof(Dtype)*(max + 1));
+		for (int i = 0; i < max + 1; i++) {
+			C[i] = 0;
+		}
+
+		for (int i = 0; i < N; i++) {
+			++C[A[i]];                         // 统计每个数字出现的次数
+		}
+		for (int j = 1; j < max + 1; j++) {    // 更新统计数组
+			C[j] += C[j - 1];
+		}
+
+		for (int k = N - 1; k >= 0; k--) {    // 
+			B[C[A[k]] - 1] = A[k];
+			C[A[k]]--;
+		}
+		for (int m = 0; m < N; m++) {
+			A[m] = B[m];
+		}
 		return 1;
 	}
 
