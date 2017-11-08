@@ -110,8 +110,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\bucket.cpp" />
     <ClCompile Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\main.cpp" />
+    <ClCompile Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\sort\bucket.cpp" />
     <ClCompile Include="data_structure.cpp" />
     <ClCompile Include="emplace.cpp" />
     <ClCompile Include="exp0_vector.cpp" />
@@ -129,8 +129,9 @@
     <ClCompile Include="unordered_map.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\array.hpp" />
-    <ClInclude Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\sort.hpp" />
+    <ClInclude Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\array\array.hpp" />
+    <ClInclude Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\divideConquer\csDC.hpp" />
+    <ClInclude Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\sort\sort.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

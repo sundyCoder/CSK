@@ -19,6 +19,18 @@
     <Filter Include="Source Files\GSC">
       <UniqueIdentifier>{77572bf5-0df7-4ee0-bd2d-58523a806283}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\sort">
+      <UniqueIdentifier>{ac83a8fa-57ab-4818-b195-e97a55f5eaae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\array">
+      <UniqueIdentifier>{158b85b9-a5ff-496c-a5d8-483a9c505f85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\divideConquer">
+      <UniqueIdentifier>{f800da58-b509-4c11-b050-90020ebe883f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\greedyAlgorithm">
+      <UniqueIdentifier>{2830adb8-6566-489d-ba1c-2119c1e6ea98}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="exp1.cpp">
@@ -69,16 +81,19 @@
     <ClCompile Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\main.cpp">
       <Filter>Source Files\GSC</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\bucket.cpp">
-      <Filter>Source Files\GSC</Filter>
+    <ClCompile Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\sort\bucket.cpp">
+      <Filter>Header Files\sort</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\sort.hpp">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\array\array.hpp">
+      <Filter>Header Files\array</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\array.hpp">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\sort\sort.hpp">
+      <Filter>Header Files\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\divideConquer\csDC.hpp">
+      <Filter>Header Files\divideConquer</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

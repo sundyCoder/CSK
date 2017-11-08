@@ -1,10 +1,14 @@
-#include "sort.hpp"
+#include "sort/sort.hpp"
+#include "divideConquer/csDC.hpp"
+
 #include <algorithm>
 #include <iostream>
 #include <memory>
 #include <chrono>
+
 using namespace std;
 using namespace sort;
+using namespace csdc;
 
 void sort_test() {
 	//int A[] = {31,41,59,26,41,58};
@@ -39,8 +43,17 @@ void sort_test() {
 	}
 }
 
+int divideConquerTest() {
+	CSDC cs;
+	//double ret = cs.myPow(10,5);
+	int ret = cs.mySqrt(8);
+	std::cout << ret << std::endl;
+	return 1;
+}
+
 int main(int argc, char** argv) {
-	sort_test();
+	//sort_test();
+	divideConquerTest();
 	system("pause");
 	return 0;
 }
