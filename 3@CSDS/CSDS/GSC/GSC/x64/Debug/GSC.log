@@ -1,9 +1,0 @@
-﻿  main.cpp
-c:\csk\3@csds\csds\gsc\gsc\main.cpp(32): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
-c:\csk\3@csds\csds\gsc\gsc\main.cpp(32): warning C4305: 'initializing': truncation from 'double' to 'float'
-c:\csk\3@csds\csds\gsc\gsc\sort\sort.hpp(398): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-  c:\csk\3@csds\csds\gsc\gsc\sort\sort.hpp(392): note: while compiling class template member function 'int sort::Solution<int>::bucketSort(float [],int)'
-  c:\csk\3@csds\csds\gsc\gsc\main.cpp(34): note: see reference to function template instantiation 'int sort::Solution<int>::bucketSort(float [],int)' being compiled
-  c:\csk\3@csds\csds\gsc\gsc\main.cpp(17): note: see reference to class template instantiation 'sort::Solution<int>' being compiled
-  GSC.vcxproj -> C:\CSK\3@CSDS\CSDS\GSC\x64\Debug\GSC.exe
-  GSC.vcxproj -> C:\CSK\3@CSDS\CSDS\GSC\x64\Debug\GSC.pdb (Partial PDB)
