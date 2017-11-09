@@ -31,6 +31,9 @@
     <Filter Include="Header Files\greedyAlgorithm">
       <UniqueIdentifier>{2830adb8-6566-489d-ba1c-2119c1e6ea98}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\tree">
+      <UniqueIdentifier>{e94982d4-4493-4a03-901a-1a7e357b65c5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="exp1.cpp">
@@ -94,6 +97,9 @@
     </ClInclude>
     <ClInclude Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\divideConquer\csDC.hpp">
       <Filter>Header Files\divideConquer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\tree\bt.hpp">
+      <Filter>Header Files\tree</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

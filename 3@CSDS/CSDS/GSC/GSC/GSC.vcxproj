@@ -132,6 +132,7 @@
     <ClInclude Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\array\array.hpp" />
     <ClInclude Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\divideConquer\csDC.hpp" />
     <ClInclude Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\sort\sort.hpp" />
+    <ClInclude Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\tree\bt.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

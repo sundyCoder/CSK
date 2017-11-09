@@ -1,5 +1,6 @@
 #include "sort/sort.hpp"
 #include "divideConquer/csDC.hpp"
+#include "tree/bt.hpp"
 
 #include <algorithm>
 #include <iostream>
@@ -9,6 +10,7 @@
 using namespace std;
 using namespace sort;
 using namespace csdc;
+using namespace bitree;
 
 void sort_test() {
 	//int A[] = {31,41,59,26,41,58};
@@ -51,9 +53,24 @@ int divideConquerTest() {
 	return 1;
 }
 
+int biTreeTest() {
+	BItree<int> bit;
+	TreeNode<int>* root = (TreeNode<int> *)bit.newNode(1);
+	root->left = (TreeNode<int> *)bit.newNode(2);
+	root->right = (TreeNode<int> *)bit.newNode(3);
+	root->left->left = (TreeNode<int> *)bit.newNode(4);
+	root->left->right = (TreeNode<int> *)bit.newNode(5);
+	vector<int> vecTree = bit.preorderTraversalRe(root);
+	for (int i = 0; i < vecTree.size(); i++) {
+		cout << vecTree[i] << " ";
+	}
+	cout << endl;
+}
+
 int main(int argc, char** argv) {
 	//sort_test();
-	divideConquerTest();
+	//divideConquerTest();
+	biTreeTest();
 	system("pause");
 	return 0;
 }
