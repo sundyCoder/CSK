@@ -55,16 +55,22 @@ int divideConquerTest() {
 
 int biTreeTest() {
 	BItree<int> bit;
-	TreeNode<int>* root = (TreeNode<int> *)bit.newNode(1);
-	root->left = (TreeNode<int> *)bit.newNode(2);
-	root->right = (TreeNode<int> *)bit.newNode(3);
-	root->left->left = (TreeNode<int> *)bit.newNode(4);
-	root->left->right = (TreeNode<int> *)bit.newNode(5);
-	vector<int> vecTree = bit.preorderTraversalRe(root);
+	bit.btTreeInsert(1);
+	bit.btTreeInsert(2);
+	bit.btTreeInsert(3);
+	bit.btTreeInsert(4);
+	bit.btTreeInsert(5);
+	//vector<int> vecTree = bit.btTreeTravelRe();
+	//vector<int> vecTree = bit.btTreeTravelIt();
+	//vector<int> vecTree = bit.btPreOrderMorris();
+	//vector<int> vecTree = bit.btLevelOrderRe();
+	vector<int> vecTree = bit.btLevelOrderIt();
 	for (int i = 0; i < vecTree.size(); i++) {
 		cout << vecTree[i] << " ";
 	}
 	cout << endl;
+
+	return 0;
 }
 
 int main(int argc, char** argv) {

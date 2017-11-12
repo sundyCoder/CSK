@@ -87,6 +87,9 @@
     <ClCompile Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\sort\bucket.cpp">
       <Filter>Header Files\sort</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\producerConsumer.cpp">
+      <Filter>Source Files\test</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\array\array.hpp">

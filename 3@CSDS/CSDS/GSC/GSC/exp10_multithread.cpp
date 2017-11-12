@@ -27,7 +27,7 @@ int task3(int par1, int par2, int par3) {
 }
 
 
-int main_multithread(int argc, char** argv) {
+int main_mulit(int argc, char** argv) {
 	std::vector<std::thread> workers_;
 	workers_.push_back(std::thread(&task1, 2));
 	workers_[0].detach();
