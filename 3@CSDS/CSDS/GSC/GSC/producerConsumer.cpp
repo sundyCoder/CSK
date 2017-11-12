@@ -38,7 +38,11 @@ void consumer() {
 	}
 }
 
+<<<<<<< HEAD
 void main_procon() {
+=======
+int main() {
+>>>>>>> 7458dee715bb46a40ab44dc2c66ea87fd63e7675
 	std::thread t1(producer, 10);
 	std::thread t2(consumer);
 	t1.join();

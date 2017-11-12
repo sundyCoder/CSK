@@ -19,6 +19,7 @@ namespace bitree {
 	};
 
 	TreeNode* root;
+<<<<<<< HEAD
 	// 二叉树的插入
 	void bt_insert(TreeNode*& root, TreeNode* n);
 	void bt_insert(TreeNode*& root, Dtype e);
@@ -42,6 +43,20 @@ namespace bitree {
 		// 二叉树的层次遍历 (levelorder)
 		vector<Dtype> btLevelOrderRe() { return bt_LevelOrderRe(root); };
 		vector<Dtype> btLevelOrderIt() { return bt_LevelOrderIt(root); };
+=======
+
+	void bt_insert(TreeNode*& root, TreeNode* n);
+	void bt_insert(TreeNode*& root, Dtype e);
+	vector<Dtype> bt_travelRe(TreeNode*& root);
+	vector<Dtype> bt_travelIt(TreeNode*& root);
+
+	public:
+		BItree() :root(NULL) {};
+		void btTreeInsert(Dtype e) { bt_insert(root, e); };
+		vector<Dtype> btTreeTravelRe() { return bt_travelRe(root); };
+		vector<Dtype> btTreeTravelIt() { return bt_travelIt(root); };
+
+>>>>>>> 7458dee715bb46a40ab44dc2c66ea87fd63e7675
 	};
 
 	template <typename Dtype>
@@ -66,11 +81,16 @@ namespace bitree {
 	//1 preorder
 	// 1.1  recursive solution
 	template <typename Dtype>
+<<<<<<< HEAD
 	vector<Dtype> BItree<Dtype>::bt_PreOrderRe(TreeNode*& root) {
+=======
+	vector<Dtype> BItree<Dtype>::bt_travelRe(TreeNode*& root) {
+>>>>>>> 7458dee715bb46a40ab44dc2c66ea87fd63e7675
 		if (root == NULL) {
 			return vector<Dtype>();
 		}
 
+<<<<<<< HEAD
 		vector<Dtype> resultTree, leftTree, rightTree;
 
 		resultTree.push_back(root->val);
@@ -178,9 +198,16 @@ namespace bitree {
 			result.insert(result.end(), rightTree.begin(), rightTree.end());
 		}
 		return result;
+=======
+		vector<Dtype> vecTree;
+		vecTree.push_back(root->val);
+		bt_travelRe(root->left);
+		bt_travelRe(root->right);
+>>>>>>> 7458dee715bb46a40ab44dc2c66ea87fd63e7675
 	}
 
 	template <typename Dtype>
+<<<<<<< HEAD
 	vector<Dtype> BItree<Dtype>::bt_LevelOrderRe(TreeNode*& root) {
 		int height = bt_height(root);
 		vector<Dtype> result;
@@ -216,5 +243,9 @@ namespace bitree {
 			}
 		}
 		return result;
+=======
+	vector<Dtype> BItree<Dtype>::bt_travelIt(TreeNode*& root) {
+		return vector<Dtype>();
+>>>>>>> 7458dee715bb46a40ab44dc2c66ea87fd63e7675
 	}
 }

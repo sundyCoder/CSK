@@ -59,12 +59,16 @@ int biTreeTest() {
 	bit.btTreeInsert(2);
 	bit.btTreeInsert(3);
 	bit.btTreeInsert(4);
+<<<<<<< HEAD
 	bit.btTreeInsert(5);
 	//vector<int> vecTree = bit.btTreeTravelRe();
 	//vector<int> vecTree = bit.btTreeTravelIt();
 	//vector<int> vecTree = bit.btPreOrderMorris();
 	//vector<int> vecTree = bit.btLevelOrderRe();
 	vector<int> vecTree = bit.btLevelOrderIt();
+=======
+	vector<int> vecTree = bit.btTreeTravelRe();
+>>>>>>> 7458dee715bb46a40ab44dc2c66ea87fd63e7675
 	for (int i = 0; i < vecTree.size(); i++) {
 		cout << vecTree[i] << " ";
 	}
@@ -73,7 +77,7 @@ int biTreeTest() {
 	return 0;
 }
 
-int main(int argc, char** argv) {
+int main_testt(int argc, char** argv) {
 	//sort_test();
 	//divideConquerTest();
 	biTreeTest();

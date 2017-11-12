@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿  main.cpp
 c:\csk\3@csds\csds\gsc\gsc\main.cpp(34): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
 c:\csk\3@csds\csds\gsc\gsc\main.cpp(34): warning C4305: 'initializing': truncation from 'double' to 'float'
@@ -7,3 +8,8 @@ c:\csk\3@csds\csds\gsc\gsc\sort\sort.hpp(398): warning C4244: 'initializing': co
   c:\csk\3@csds\csds\gsc\gsc\main.cpp(19): note: see reference to class template instantiation 'sort::Solution<int>' being compiled
   GSC.vcxproj -> C:\CSK\3@CSDS\CSDS\GSC\x64\Debug\GSC.exe
   GSC.vcxproj -> C:\CSK\3@CSDS\CSDS\GSC\x64\Debug\GSC.pdb (Partial PDB)
+=======
+﻿  producerConsumer.cpp
+  GSC.vcxproj -> C:\Users\A1838\OneDrive\CSK\3@CSDS\CSDS\GSC\x64\Debug\GSC.exe
+  GSC.vcxproj -> C:\Users\A1838\OneDrive\CSK\3@CSDS\CSDS\GSC\x64\Debug\GSC.pdb (Partial PDB)
+>>>>>>> 7458dee715bb46a40ab44dc2c66ea87fd63e7675
