@@ -111,6 +111,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\main.cpp" />
+    <ClCompile Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\producerConsumer.cpp" />
     <ClCompile Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\sort\bucket.cpp" />
     <ClCompile Include="data_structure.cpp" />
     <ClCompile Include="emplace.cpp" />
