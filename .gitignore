@@ -10,4 +10,5 @@ __pycache__
 cmake_build/
 .idea/**
 /build/
-/3@CSDS/CSDS/GSC/x64/Debug
+3@CSDS/CSDS/GSC/GSC/x64/Debug/
+3@CSDS/CSDS/GSC/GSC/GSC.VC.db
