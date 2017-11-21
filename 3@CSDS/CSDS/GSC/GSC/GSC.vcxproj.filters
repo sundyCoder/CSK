@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="array">
+      <UniqueIdentifier>{9b93481c-1566-4292-9d85-325fe545b515}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="divideConquer">
+      <UniqueIdentifier>{169b08fc-8336-4153-b3d7-8fe388f053a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="greedyAlgorithm">
+      <UniqueIdentifier>{3f24d956-e0a2-459b-b55e-cbcf9dc36d6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sort">
+      <UniqueIdentifier>{99bee8ce-ffaf-4542-94f2-31169135fff0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tree">
+      <UniqueIdentifier>{a4c03449-57ff-4677-b774-0a8869c9c8e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{75f1b44d-3365-49a0-aef0-1f43a60ca608}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="array\array.hpp">
+      <Filter>array</Filter>
+    </ClInclude>
+    <ClInclude Include="divideConquer\csDC.hpp">
+      <Filter>divideConquer</Filter>
+    </ClInclude>
+    <ClInclude Include="tree\bt.hpp">
+      <Filter>tree</Filter>
+    </ClInclude>
+    <ClInclude Include="sort\sort.hpp">
+      <Filter>sort</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sort\bucket.cpp">
+      <Filter>sort</Filter>
+    </ClCompile>
+    <ClCompile Include="bst.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="data_structure.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="dList.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="emplace.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="exp0_vector.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="exp1.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="exp2_mutex.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="exp3.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="exp4_search_target.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="exp5_map_set.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="exp6_forward_list.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="exp7_ch.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="exp8_dp.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="exp9_COO.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="exp10_multithread.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="exp11_shuffle.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="maxSubarray.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="producerConsumer.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="sList.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="unordered_map.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
