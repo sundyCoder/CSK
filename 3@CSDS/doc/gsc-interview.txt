@@ -1,0 +1,25 @@
+Techonology:
+1. If you have 100 continuous numbers, one number is missing, how do you find it?
+2. Basic question about Strings, and a simple DP program.  
+3. Do you know the difference between Outer join and Inner join?  
+4. Calculate the factorial of a number?  
+5. How do you balance a BST? Can you code that for me?
+6. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Others:
+1. Why Goldman Sachs? Why finance?  
+2. How can you check if a string has unique characters? (Make sure none of the characters repeat)  
+3 .
