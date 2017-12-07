@@ -1,14 +1,20 @@
 # Sundy #
 
-## Unsupervised Feature Learning and Deep Learning ##
+## Deep Learning 
 
-Knowledge：
 ###  Book
 
 1. [NN Deep Learning中文版](https://hit-scir.gitbooks.io/neural-networks-and-deep-learning-zh_cn/content/index.html)
 2. [NN Deep Learning英文版](http://neuralnetworksanddeeplearning.com//)
 3. [Evaluation of Deep Learning Toolkits](https://github.com/zer0n/deepframeworks)
 4. [超智能体](https://yjango.gitbooks.io/superorganism/content/)
+5. [Deep learning Research](https://github.com/handong1587/handong1587.github.io/tree/master/_posts/deep_learning)
+
+### Computer Vision
+1. [目标检测概述](./dl01-Object_detection.md)
+2. [目标检测方法](./dl02-Object_detection_method.md)
+3. [OCR字符识别](./dl03-OCR.md)
+4. [Tensorflow学习(C++ API)](./Tensorflow/README.md)
 
 
 一、机器学习基础
@@ -42,7 +48,8 @@ Knowledge：
 	2.CNN卷积神经网络改进
 		(1).R-CNN （SPPNET）
 		(2).Fast-R-CNN
-		(3).Faster-R-CNN （YOLO、SSD）
+	    (3).YOLO、SSD
+		(3).Faster-R-CNN, R-FCN 
 	3.深度学习的模型训练技巧
 	4.梯度下降的优化方法详解
 
@@ -108,9 +115,7 @@ Knowledge：
 		(8).2017年AAAI最佳论文：利用物理定理的知识迁移到视频理解
 
 ### 1. Tutorial
-
 1. [Unsupervised Feature Learning and Deep Learning](http://deeplearning.stanford.edu/wiki/index.php/Main_Page)
 
-### 2.Video
-	
-1.[https://www.youtube.com/watch?v=ZmNOAtZIgIk](https://www.youtube.com/watch?v=ZmNOAtZIgIk)
+### 2.Video	
+  1.[https://www.youtube.com/watch?v=ZmNOAtZIgIk](https://www.youtube.com/watch?v=ZmNOAtZIgIk)

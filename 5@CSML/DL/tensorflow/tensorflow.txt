@@ -1,1 +1,0 @@
-https://github.com/martin-gorner/tensorflow-mnist-tutorial
