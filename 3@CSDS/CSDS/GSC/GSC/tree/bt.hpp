@@ -34,6 +34,7 @@ namespace bitree {
 	public:
 		BItree() :root(NULL) {}
 		void btTreeInsert(Dtype e) { bt_insert(root, e); }
+		// 二叉树的前序遍历
 		vector<Dtype> btPreOrderRe() { return bt_PreOrderRe(root); }
 		vector<Dtype> btPreOrderIt() { return bt_PreOrderIt(root); }
 		vector<Dtype> btPreOrderMorris() { return bt_PreOrderMorris(root); }

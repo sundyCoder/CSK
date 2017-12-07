@@ -110,6 +110,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\tree\AVLTree.hpp" />
+    <ClInclude Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\tree\BST.hpp" />
     <ClInclude Include="array\array.hpp" />
     <ClInclude Include="divideConquer\csDC.hpp" />
     <ClInclude Include="sort\sort.hpp" />

@@ -45,6 +45,12 @@
     <ClInclude Include="sort\sort.hpp">
       <Filter>sort</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\tree\BST.hpp">
+      <Filter>tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3%40CSDS\CSDS\GSC\GSC\tree\AVLTree.hpp">
+      <Filter>tree</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="sort\bucket.cpp">
