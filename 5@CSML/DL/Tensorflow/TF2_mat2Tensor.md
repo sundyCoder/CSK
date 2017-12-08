@@ -2,9 +2,9 @@
 ### 1. 将Opencv中的Mat转化为Tensorflow中的Tensor
 
 	int mat2Tensor(std::vector<cv::Mat>& mats, Tensor& inputImg) {
-		for (int mt = 0; mt < mats.size(); mt++) {
+		for (int mt = 0; mt < mats.size(); mt++) {  //MAT的数量
 			cv::Mat mat= mats[mt];
-			mat.convertTo(mat, CV_32FC3);	
+			mat.convertTo(mat, CV_32FC3);	   //而CV_32FC3类型的取值为0.0到1.0
 			int width = mat.cols;
 			int height = mat.rows;
 			int depth = 3;

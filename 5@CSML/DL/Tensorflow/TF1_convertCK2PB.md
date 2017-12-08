@@ -1,8 +1,8 @@
 ## Sundy
-### Convert tensorflow checkpoint files to pb file.
+### 1. Convert tensorflow checkpoint files to pb file.
 
 tensorflow的Freezing，字面意思是冷冻，可理解为整合合并；整合什么呢，就是将模型文件和权重文件整合合并为一个文件，主要用途是便于发布。
-官方解释可参考：https://www.tensorflow.org/extend/tool_developers/#freezing
+官方解释可参考：[https://www.tensorflow.org/extend/tool_developers/#freezing](https://www.tensorflow.org/extend/tool_developers/#freezing)
 
 这里我按我的理解翻译下，不对的地方请指正：
 有一点令我们为比较困惑的是，tensorflow在训练过程中，通常不会将权重数据保存的格式文件里（这里我理解是模型文件），反而是分开保存在一个叫checkpoint的检查点文件里，当初始化时，再通过模型文件里的变量Op节点来从checkoupoint文件读取数据并初始化变量。这种模型和权重数据分开保存的情况，使得发布产品时不是那么方便，所以便有了freeze_graph.py脚本文件用来将这两文件整合合并成一个文件。
@@ -35,3 +35,76 @@ freeze_graph.py是怎么做的呢？首行它先加载模型文件，再从check
 	--input_checkpoint=model.ckpt.1001 \ 注意：这里若是r12以上的版本，只需给.data-00000....前面的文件名，如：model.ckpt.1001.data-00000-of-00001，只需写model.ckpt.1001  
 	--output_graph=/tmp/frozen_graph.pb 
 	--output_node_names=softmax
+
+
+### 2. Python代码中定义网络结构，保存checkpoint和pb节点文件
+#### 2.1 Tensorflow 训练模型的保存
+**保存 Checkpoint**
+
+checkpoint_path = os.path.join(FLAGS.train_dir, "nn_model.ckpt")
+model.saver.save(session, checkpoint_path)
+
+	
+	 saver=tf.train.Saver()
+	 saver.save(sess,path_checkpoint)
+ **保存图模型**
+
+tf.train.write_graph(session.graph_def, FLAGS.model_dir, "nn_model.pbtxt", as_text=False)
+
+	tf.train.write_graph(sess.graph_def,'./model_dir','raw.pb',as_text=False)
+
+**freeze 图模型**
+
+  需要上面的pb文件和checkpoint文件
+  
+	a. 先编译生成freeze_graph工具
+	bazel build tensorflow/python/tools:freeze_graph -c opt --copt=-march=native --config=mkl  --config=cuda  
+	
+	b. 然后指定pb文件，checkpoint目录， 网络节点的输出 
+	~/tensorflow/bazel-bin/tensorflow/python/tools/freeze_graph --input_graph=raw.pb --input_checkpoint=exported --output_graph=frozen.pb --output_node_names=Y_out
+
+**最终给python/C++测试使用的可以是checkout文件，也可以是最终freeze之后的pb文件。**
+
+
+#### 2.2 Tensorflow测试模型的使用
+
+**Python可以直接加载checkpoint文件**
+
+	path_checkpoint=r'./ann/exported'
+	saver.restore(sess,path_checkpoint)
+
+**C++可以加载freeze之后的pb或者checkoutpoint**
+
+ a. 加载freeze之后的pb文件
+	
+ 	string graph = "model/odel.pb";
+	Status load_graph_status = LoadGraph(graph_path, &session_);
+
+b. 加载checkpoint文件
+   
+	// set up your input paths
+	const string pathToGraph = "model/ckp/model_ckp.meta";
+	const string checkpointPath = "model/ckp/model_ckp";
+	Status status;
+
+	// Read in the protobuf graph we exported
+	MetaGraphDef graph_def;
+	status = ReadBinaryProto(Env::Default(), pathToGraph, &graph_def);
+	if (!status.ok()) {
+		throw runtime_error("Error reading graph definition from " + pathToGraph + ": " + status.ToString());
+	}
+
+	// Add the graph to the session
+	status = session_->Create(graph_def.graph_def());
+	if (!status.ok()) {
+		throw runtime_error("Error creating graph: " + status.ToString());
+	}
+
+	// Read weights from the saved checkpoint
+	Tensor checkpointPathTensor(DT_STRING, TensorShape());
+	checkpointPathTensor.scalar<std::string>()() = checkpointPath;
+	status = session_->Run({ { graph_def.saver_def().filename_tensor_name(), checkpointPathTensor }, },
+	{}, { graph_def.saver_def().restore_op_name() }, nullptr);
+	if (!status.ok()) {
+		throw runtime_error("Error loading checkpoint from " + checkpointPath + ": " + status.ToString());
+	}
