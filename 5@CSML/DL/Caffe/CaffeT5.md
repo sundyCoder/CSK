@@ -51,6 +51,7 @@ git clone https://github.com/weiliu89/caffe.git
 	应该会得到0.77*左右的MAP score，说明模型可以正常运行
 
 ### 8.制作自己的训练数据集
+	[label工具](https://tzutalin.github.io/labelImg/)
 	https://github.com/hyzhan/make_dataset
 
 ### 9. 修改$CAFFE_ROOT/data/$dataset_name/下labelmap_voc.prototxt
