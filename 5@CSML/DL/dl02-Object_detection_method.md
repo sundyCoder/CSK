@@ -33,6 +33,7 @@ Quickly after OverFeat, [Regions with CNN features or R-CNN](https://arxiv.org/a
 - Classify each region with [SVMs](https://en.wikipedia.org/wiki/Support_vector_machine).
 
 ![](./imgs/rcnn.jpg)
+![](./imgs/rcnn-1.png)
 
 [Girshick, Ross, et al. "Rich feature hierarchies for accurate object detection and semantic segmentation." 2014.](https://arxiv.org/abs/1311.2524)
 
@@ -43,6 +44,7 @@ This approach quickly evolved into a purer deep learning one, when a year later 
 **Fast R-CNN Architecture.**
 
 ![](./imgs/fastrcnn.jpg)
+![](./imgs/fast-rcnn-1.png)
 
 [Girshick, Ross. "Fast R-CNN" 2015.](https://arxiv.org/abs/1504.08083)
 
@@ -61,12 +63,20 @@ Subsequently, [Faster R-CNN](https://arxiv.org/abs/1506.01497) authored by Shaoq
 **Faster R-CNN Architecture.**
 
 ![](./imgs/fasterrcnn.jpg)
+![](./imgs/faster-rcnn-1.png)
+
+Softmax1 主要用来挑选有候选物体的BBox， softmax2主要用来做最终的分类。
 
 [Ren, Shaoqing, et al. "Faster R-CNN: Towards real-time object detection with region proposal networks." 2015.](https://arxiv.org/abs/1506.01497)
 
 #### 2.6 SSD 
 [Single Shot Detector (SSD)](https://arxiv.org/abs/1512.02325) which takes on YOLO by using multiple sized convolutional feature maps achieving better results and speed.
 
+![](./imgs/ssd-1.png)
+![](./imgs/ssd-2.png)
+![](./imgs/ssd-3.png)
+![](./imgs/ssd-4.png)
+![](./imgs/ssd-default-box.png)
 
 #### 2.7 R-FCN 
 [Region-based Fully Convolutional Networks (R-FCN)](https://arxiv.org/abs/1605.06409) which takes the architecture of Faster R-CNN but with only convolutional networks.
