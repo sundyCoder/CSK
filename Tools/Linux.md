@@ -9,3 +9,9 @@
  
  :wq      -> save and quite.
   
+## 2. find and rm
+
+ eg: find all the exe and remove them. 
+ 
+ find . -name ‘*.exe’ -type f -print -exec rm -rf {} ;
+
