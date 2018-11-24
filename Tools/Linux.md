@@ -13,5 +13,5 @@
 
  eg: find all the exe and remove them. 
  
- find . -name ‘*.exe’ -type f -print -exec rm -rf {} \;
+ find . -name "._*" -exec rm {} \;
 
