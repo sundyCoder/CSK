@@ -54,6 +54,8 @@
 	5.标签发布
 		git push origin v0.1.2 # 将v0.1.2标签提交到git服务器
 		git push origin –tags # 将本地所有标签一次性提交到git服务器 
+	6.恢复到某个标签
+		git reset --hard xxxx
 		
 
 # ![](http://i.imgur.com/S7xBFja.png)微信公众号 #
