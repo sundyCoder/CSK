@@ -1,0 +1,4 @@
+$ sudo apt-get purge gdm*
+$ sudo apt-get purge lightdm
+$ sudo apt-get install lightdm
+$ sudo apt-get install nvidia-352
