@@ -9,6 +9,7 @@
 3. [Evaluation of Deep Learning Toolkits](https://github.com/zer0n/deepframeworks)
 4. [超智能体](https://yjango.gitbooks.io/superorganism/content/)
 5. [Deep learning Research](https://github.com/handong1587/handong1587.github.io/tree/master/_posts/deep_learning)
+6. [课程](https://nndl.github.io)
 
 ### Computer Vision
 1. [目标检测概述](./dl01-Object_detection.md)
