@@ -17,6 +17,7 @@
 - [计算机基础](2@CSAPP/README.md)
 - [算法导论](3@CSDS/README.md)
 - [机器学习](5@CSML/README.md)
+- [常见算法](https://github.com/TheAlgorithms/Python)
 - [OpenCV](4@CSCV/Opencv/README.md)
 - [C++学习](1@CSLG/README.md)
 - [Python笔记](1@CSLG/Python/README.md)
