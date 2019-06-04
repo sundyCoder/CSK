@@ -47,7 +47,7 @@
 ## 11.截图,录视频神器 ##
 1. **Faststone Capture**
 
-##12.本地文件搜索引擎 ##
+## 12.本地文件搜索引擎 ##
 1. **Everything**
 
 ##13.画图软件 ##
@@ -65,6 +65,14 @@
 1. [XnView](http://www.xnview.com/en/xnview/#downloads)
 2. [IrfanView](http://www.irfanview.com/)
 3. [Visual Studio插件Image Watch](https://visualstudiogallery.msdn.microsoft.com/e682d542-7ef3-402c-b857-bbfba714f78d)
+
+## 17. Neural Graph
+1. http://alexlenail.me/NN-SVG/LeNet.html
+2. https://github.com/HarisIqbal88/PlotNeuralNet
+3. https://github.com/yu4u/convnet-drawer
+4. https://github.com/gwding/draw_convnet
+5. https://ethereon.github.io/netscope/quickstart.html
+6. http://www.cs.cmu.edu/~aharley/vis/
 
 **请参见上面内容的详细介绍**: [https://weavi.com/95944/](https://weavi.com/95944/)
 # ![](http://i.imgur.com/S7xBFja.png)微信公众号 #
