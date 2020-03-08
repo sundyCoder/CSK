@@ -4,3 +4,6 @@
 
 ### 2. PCA, NMF,T-SNE
 * https://www.kaggle.com/jinilcs/dimensionality-reduction-pca-nmf-t-sne
+
+### 3. Domain Adaptation
+* https://github.com/barebell/DA
