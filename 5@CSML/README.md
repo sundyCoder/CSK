@@ -11,3 +11,6 @@
 
 ### 4. classifiers
 * https://github.com/kuangliu/pytorch-cifar
+
+### 5. Mutual Information
+* https://www.cnblogs.com/gatherstars/p/6004075.html
