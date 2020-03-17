@@ -14,3 +14,6 @@
 
 ### 5. Mutual Information
 * https://www.cnblogs.com/gatherstars/p/6004075.html
+
+### 6. Artificial Robotic
+* https://github.com/PacktPublishing/Artificial-Intelligence-for-Robotics
