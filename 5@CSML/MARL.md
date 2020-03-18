@@ -1,6 +1,7 @@
 ## RL environment:
 * gym: https://github.com/openai/gym
 * robotschool: https://github.com/openai/gym/blob/master/docs/environments.md#pybullet-robotics-environments
+* high-way automonous driving: https://github.com/eleurent/highway-env
 
 ## Multi-agent environment
 * OpenAI Memo: https://github.com/openai/neural-mmo
