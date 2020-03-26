@@ -10,3 +10,4 @@
 * Netowrk system: https://github.com/cts198859/deeprl_network
 * Traffic system: https://github.com/cts198859/deeprl_signal_control
 * Multi-agent framework: https://github.com/ying-wen/malib
+* Arena-building tools: https://github.com/YuhangSong/Arena-BuildingToolkit#lidar-sensor
