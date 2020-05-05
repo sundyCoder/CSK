@@ -53,6 +53,7 @@
 ##13.画图软件 ##
 1. **Viso**
 2. **Edraw Max**
+3. **Draw IO**
 
 ## 14.阅读代码神器 ##
 1. **Sublime Text**
@@ -73,6 +74,9 @@
 4. https://github.com/gwding/draw_convnet
 5. https://ethereon.github.io/netscope/quickstart.html
 6. http://www.cs.cmu.edu/~aharley/vis/
+
+## 18. 2D,3D数据可视化
+1. https://github.com/sundyCoders/tsne-viz
 
 **请参见上面内容的详细介绍**: [https://weavi.com/95944/](https://weavi.com/95944/)
 # ![](http://i.imgur.com/S7xBFja.png)微信公众号 #
