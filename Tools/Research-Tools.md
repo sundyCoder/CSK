@@ -50,7 +50,7 @@
 ## 12.本地文件搜索引擎 ##
 1. **Everything**
 
-##13.画图软件 ##
+## 13.画图软件 ##
 1. **Viso**
 2. **Edraw Max**
 3. **Draw IO**
@@ -77,6 +77,11 @@
 
 ## 18. 2D,3D数据可视化
 1. https://github.com/sundyCoders/tsne-viz
+
+## 19. How to do research
+1. [Think Like an Amateur, Do As an Expert](https://www.edge-ai-vision.com/2018/06/think-like-an-amateur-do-as-an-expert-lessons-from-a-career-in-computer-vision-a-keynote-presentation-from-dr-takeo-kanade/)
+2. [How to do research](http://people.eecs.berkeley.edu/~yima/psfile/HowtodoResearch.ppt)
+3. [How to write a good CVPR submission](https://billf.mit.edu/sites/default/files/documents/cvprPapers.pdf)
 
 **请参见上面内容的详细介绍**: [https://weavi.com/95944/](https://weavi.com/95944/)
 # ![](http://i.imgur.com/S7xBFja.png)微信公众号 #
