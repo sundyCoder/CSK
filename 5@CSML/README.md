@@ -17,3 +17,6 @@
 
 ### 6. Artificial Robotic
 * https://github.com/PacktPublishing/Artificial-Intelligence-for-Robotics
+
+### 7. Multi-fidelity
+* https://github.com/sjvrijn/mf2
