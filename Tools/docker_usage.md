@@ -31,6 +31,7 @@ To check whether you can access and download images from Docker Hub, type:
 * docker search ubuntu
 * docker pull ubuntu
 * docker run ubuntu
+* docker rmi ubuntu ( remove ubuntu image)
 
 To see the images that have been downloaded to your computer, type:
 * docker images
