@@ -78,7 +78,10 @@
 ## 18. 2D,3D数据可视化
 1. https://github.com/sundyCoders/tsne-viz
 
-## 19. How to do research
+## 19. Mac command
+1. sips -Z 800 *.jpg (compress the images with the max heigh/width)
+
+## 20. How to do research
 1. [Think Like an Amateur, Do As an Expert](https://www.edge-ai-vision.com/2018/06/think-like-an-amateur-do-as-an-expert-lessons-from-a-career-in-computer-vision-a-keynote-presentation-from-dr-takeo-kanade/)
 2. [How to do research](http://people.eecs.berkeley.edu/~yima/psfile/HowtodoResearch.ppt)
 3. [How to write a good CVPR submission](https://billf.mit.edu/sites/default/files/documents/cvprPapers.pdf)
