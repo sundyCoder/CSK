@@ -20,3 +20,6 @@
 
 ### 7. Multi-fidelity
 * https://github.com/sjvrijn/mf2
+
+### 8. Outlier detection
+* https://pyod.readthedocs.io/en/latest/
