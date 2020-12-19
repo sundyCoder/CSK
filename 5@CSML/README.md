@@ -23,3 +23,4 @@
 
 ### 8. Outlier detection
 * https://pyod.readthedocs.io/en/latest/
+* https://github.com/yzhao062/PyHealth
