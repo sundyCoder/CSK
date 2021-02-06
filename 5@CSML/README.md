@@ -24,3 +24,6 @@
 ### 8. Outlier detection
 * https://pyod.readthedocs.io/en/latest/
 * https://github.com/yzhao062/PyHealth
+
+### 9. AI for chip design
+* https://arxiv.org/pdf/2102.01723.pdf
